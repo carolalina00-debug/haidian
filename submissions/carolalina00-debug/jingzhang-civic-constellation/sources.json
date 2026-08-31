@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "IMAGEGEN-CIVIC-HERO",
+      "path": "assets/hero/civic-constellation-hero.png",
+      "source_type": "agent_generated_original",
+      "usage": "Original generated concept art; atmosphere only, not site evidence or an exact built-result promise."
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/one-north?estate=one-north",
+      "source_type": "official_public",
+      "usage": "First-party case reference for mixed research, enterprise, education, startup and living ecosystem."
+    },
+    {
+      "id": "CASE-22BARCELONA",
+      "url": "https://www.barcelona.cat/internationalwelcome/sites/default/files/22%40%20Barcelona%20Innovation%20District_2024_EN.PDF",
+      "source_type": "official_public",
+      "usage": "Barcelona City Council case reference for post-industrial innovation-district renewal and mixed urban programs."
+    },
+    {
+      "id": "CASE-KENDALL",
+      "url": "https://kendallsquare.mit.edu/",
+      "source_type": "institutional_public",
+      "usage": "MIT first-party case reference for laboratories, housing, retail, open space and active ground floors."
+    },
+    {
+      "id": "CASE-OTANIEMI",
+      "url": "https://www.aalto.fi/en/sustainability/the-design-guidelines-for-otaniemi-campus-outdoor-areas",
+      "source_type": "institutional_public",
+      "usage": "Aalto first-party case reference for accessible, biodiverse and experimental outdoor campus space."
+    },
+    {
+      "id": "CASE-SALFORD-RISE",
+      "url": "https://www.salford.gov.uk/planning-building-and-regeneration/regeneration/city-centre-salford/crescent/salford-rise/",
+      "source_type": "official_public",
+      "usage": "Salford City Council reference for public-realm infrastructure reconnecting communities to an innovation district."
+    },
+    {
+      "id": "CASE-OLD-OAK",
+      "url": "https://www.london.gov.uk/who-we-are/city-halls-partners/old-oak-and-park-royal-development-corporation-opdc",
+      "source_type": "official_public",
+      "usage": "London City Hall reference for innovation, public realm, local opportunity and connected mixed neighbourhoods."
+    },
+    {
+      "id": "HAIDIAN-GARDEN-WATER",
+      "url": "https://zyk.bjhd.gov.cn/zwdt/zcwj/202412/t20241205_4743384.shtml",
+      "source_type": "official_public",
+      "usage": "Haidian official planning reference for Three Mountains and Five Gardens, Qinghe waterfront green corridor, Jing-Zhang cultural green corridor and mountain-water-field-forest-lake landscape structure."
+    },
+    {
+      "id": "HAIDIAN-ACADEMY-CULTURE",
+      "url": "https://zyk.bjhd.gov.cn/jbdt/auto4542_51838/auto4542_56412/auto4542/auto4542/202603/t20260309_4807479.shtml",
+      "source_type": "official_public",
+      "usage": "Haidian official reference for the Eight Institutes culture, university-research concentration and integration across campus, city and enterprise."
+    },
+    {
+      "id": "ZHONGGUANCUN-CULTURE",
+      "url": "https://www.bjrd.gov.cn/fwhd/bjrdzz/bjrdzz2020/bjrdzz202005q/yjyts202005/202101/t20210106_2199509.html",
+      "source_type": "official_public",
+      "usage": "Beijing official reference for Zhongguancun innovation culture: respect for science, innovation, inclusion, problem-solving and tolerance of repeated attempts."
+    },
+    {
+      "id": "HAIDIAN-CULTURE-PLAN",
+      "url": "https://zyk.bjhd.gov.cn/zwdt/zcwj/202604/t20260428_4813297.shtml",
+      "source_type": "official_public",
+      "usage": "Current Haidian plan reference for cultivating Zhongguancun innovation culture, opening cultural resources and linking universities, institutes and enterprises."
+    },
+    {
+      "id": "JINGZHANG-HERITAGE-PARK",
+      "url": "https://yllhj.beijing.gov.cn/zwgk/zwxx/202306/t20230626_3145467.shtml",
+      "source_type": "official_public",
+      "usage": "Beijing official reference for the Jing-Zhang railway heritage park, restored railway traces and public-space stitching."
+    },
+    {
+      "id": "DAZHONGSI-HERITAGE",
+      "url": "https://wwj.beijing.gov.cn/bjww/362771/362772/545781/index.html",
+      "source_type": "official_public",
+      "usage": "Beijing cultural heritage reference for Dazhongsi and the Yongle Bell; used only as a restrained acoustic and knowledge-marker reference."
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "type": "FeatureCollection",
+  "name": "civic_constellation_land_use",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LU-001",
+      "properties": {
+        "id": "LU-001",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0901",
+        "name_zh": "国际交流与商业服务",
+        "name_en": "International exchange + services",
+        "color": "#d06b3c",
+        "area_sqm_declared": 1588467.573,
+        "control_status": "conceptual_reference_subject_to_official_planning_conditions"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34070000000001,
+              39.93899999999999
+            ],
+            [
+              116.34038624209587,
+              39.950300380600325
+            ],
+            [
+              116.35530001627347,
+              39.95038427648101
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.34070000000001,
+              39.93899999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-002",
+      "properties": {
+        "id": "LU-002",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0802",
+        "name_zh": "智能体与终端研发",
+        "name_en": "Agent + device R&D",
+        "color": "#49c5d5",
+        "area_sqm_declared": 2008548.368,
+        "control_status": "conceptual_reference_subject_to_official_planning_conditions"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35530001627347,
+              39.95038427648101
+            ],
+            [
+              116.34038624209587,
+              39.950300380600325
+            ],
+            [
+              116.3399970943449,
+              39.96430954515443
+            ],
+            [
+              116.35530000150125,
+              39.96439566310049
+            ],
+            [
+              116.35530001627347,
+              39.95038427648101
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-003",
+      "properties": {
+        "id": "LU-003",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0702",
+        "name_zh": "人才生活与社区服务",
+        "name_en": "Talent living + community",
+        "color": "#e6c75a",
+        "area_sqm_declared": 1986895.387,
+        "control_status": "conceptual_reference_subject_to_official_planning_conditions"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.35530000150125,
+              39.96439566310049
+            ],
+            [
+              116.3399970943449,
+              39.96430954515443
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.33991414270704,
+              39.97832041862304
+            ],
+            [
+              116.354228114008,
+              39.978401049446745
+            ],
+            [
+              116.3553,
+              39.965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-004",
+      "properties": {
+        "id": "LU-004",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0802",
+        "name_zh": "开源研发与成果转化",
+        "name_en": "Open R&D + transfer",
+        "color": "#7ca8a4",
+        "area_sqm_declared": 1876061.345,
+        "control_status": "conceptual_reference_subject_to_official_planning_conditions"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3533,
+              39.99
+            ],
+            [
+              116.354228114008,
+              39.978401049446745
+            ],
+            [
+              116.33991414270704,
+              39.97832041862304
+            ],
+            [
+              116.34087482873106,
+              39.99321290418487
+            ],
+            [
+              116.35347986283632,
+              39.9932839033892
+            ],
+            [
+              116.3533,
+              39.99
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-005",
+      "properties": {
+        "id": "LU-005",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "1401",
+        "name_zh": "遗址公园与公共绿地",
+        "name_en": "Heritage park + public green",
+        "color": "#4e9a6d",
+        "area_sqm_declared": 1769444.54,
+        "control_status": "conceptual_reference_subject_to_official_planning_conditions"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35347986283632,
+              39.9932839033892
+            ],
+            [
+              116.34087482873106,
+              39.99321290418487
+            ],
+            [
+              116.34169999999999,
+              40.00600000000001
+            ],
+            [
+              116.34180266677191,
+              40.008105158362206
+            ],
+            [
+              116.35429567902682,
+              40.00817543892829
+            ],
+            [
+              116.35347986283632,
+              39.9932839033892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-006",
+      "properties": {
+        "id": "LU-006",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0802",
+        "name_zh": "全栈自主创新研发",
+        "name_en": "Full-stack AI R&D",
+        "color": "#6488b0",
+        "area_sqm_declared": 2183408.172,
+        "control_status": "conceptual_reference_subject_to_official_planning_conditions"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3553,
+              40.02649999999999
+            ],
+            [
+              116.35429567902682,
+              40.00817543892829
+            ],
+            [
+              116.34180266677191,
+              40.008105158362206
+            ],
+            [
+              116.34270000000001,
+              40.026500000000006
+            ],
+            [
+              116.3553,
+              40.02649999999999
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

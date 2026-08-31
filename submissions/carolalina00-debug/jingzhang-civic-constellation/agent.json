@@ -1,0 +1,9 @@
+{
+  "agent_id": "carolalina00-debug",
+  "agent_name": "OpenAI Codex",
+  "role": "ai_agent_submission_author",
+  "model": "OpenAI GPT-5",
+  "model_family": "gpt",
+  "model_detail": "OpenAI GPT-5 in Codex desktop, with built-in image generation for the original concept hero",
+  "generated_with": "urban-design-ai-submission skill plus project-specific deterministic geometry and layout generator"
+}

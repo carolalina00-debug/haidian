@@ -1,0 +1,1846 @@
+{
+  "type": "FeatureCollection",
+  "name": "civic_constellation_pavilions",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLDG-001",
+      "properties": {
+        "id": "BLDG-001",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊1",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 1",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35146634483905,
+              40.01644242020574
+            ],
+            [
+              116.35146020674186,
+              40.0170908230181
+            ],
+            [
+              116.35169445900772,
+              40.01709213376381
+            ],
+            [
+              116.35170059488821,
+              40.01644373092154
+            ],
+            [
+              116.35146634483905,
+              40.01644242020574
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-002",
+      "properties": {
+        "id": "BLDG-002",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊2",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 2",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35088041205165,
+              40.018145269216596
+            ],
+            [
+              116.35027974565216,
+              40.01860041720093
+            ],
+            [
+              116.35044418301686,
+              40.01872870407616
+            ],
+            [
+              116.35104484947172,
+              40.018273555249756
+            ],
+            [
+              116.35088041205165,
+              40.018145269216596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-003",
+      "properties": {
+        "id": "BLDG-003",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊3",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 3",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34889999740685,
+              40.019030783595554
+            ],
+            [
+              116.34805666592534,
+              40.01902604217069
+            ],
+            [
+              116.34805495179786,
+              40.019206153867906
+            ],
+            [
+              116.34889828549635,
+              40.01921089532284
+            ],
+            [
+              116.34889999740685,
+              40.019030783595554
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-004",
+      "properties": {
+        "id": "BLDG-004",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊4",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 4",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3466852515852,
+              40.01858020822026
+            ],
+            [
+              116.34609330682662,
+              40.018118355386505
+            ],
+            [
+              116.34592644717416,
+              40.018244778741824
+            ],
+            [
+              116.34651839187704,
+              40.01870663241763
+            ],
+            [
+              116.3466852515852,
+              40.01858020822026
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-005",
+      "properties": {
+        "id": "BLDG-005",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊5",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 5",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3455336295372,
+              40.0170575036306
+            ],
+            [
+              116.34553982371668,
+              40.01640910157895
+            ],
+            [
+              116.34530557407305,
+              40.0164077784112
+            ],
+            [
+              116.34529937767685,
+              40.01705618043265
+            ],
+            [
+              116.3455336295372,
+              40.0170575036306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-006",
+      "properties": {
+        "id": "BLDG-006",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊6",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 6",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346119685189,
+              40.01535468232849
+            ],
+            [
+              116.34672035018419,
+              40.01489955564721
+            ],
+            [
+              116.3465559289581,
+              40.01477126353298
+            ],
+            [
+              116.34595526401861,
+              40.01522638937228
+            ],
+            [
+              116.346119685189,
+              40.01535468232849
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-007",
+      "properties": {
+        "id": "BLDG-007",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊7",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 7",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34810002821695,
+              40.01446921434245
+            ],
+            [
+              116.34894330361617,
+              40.01447395500662
+            ],
+            [
+              116.34894501512142,
+              40.01429384313005
+            ],
+            [
+              116.34810174193863,
+              40.01428910249595
+            ],
+            [
+              116.34810002821695,
+              40.01446921434245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-008",
+      "properties": {
+        "id": "BLDG-008",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-001",
+        "name_zh": "中关村造物场开放亭廊8",
+        "name_en": "ZHONGGUANCUN OPEN WORKS open pavilion 8",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35031465117417,
+              40.01491976200902
+            ],
+            [
+              116.35090659733712,
+              40.01538159353971
+            ],
+            [
+              116.3510734408509,
+              40.01525516282201
+            ],
+            [
+              116.35048149463267,
+              40.0147933321333
+            ],
+            [
+              116.35031465117417,
+              40.01491976200902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-009",
+      "properties": {
+        "id": "BLDG-009",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊9",
+        "name_en": "FUTURE ACADEMY open pavilion 9",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3499382796308,
+              39.98818948090062
+            ],
+            [
+              116.3499321332199,
+              39.98883788668704
+            ],
+            [
+              116.35016628888076,
+              39.98883919975625
+            ],
+            [
+              116.3501724330781,
+              39.98819079393986
+            ],
+            [
+              116.3499382796308,
+              39.98818948090062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-010",
+      "properties": {
+        "id": "BLDG-010",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊10",
+        "name_en": "FUTURE ACADEMY open pavilion 10",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3495095914273,
+              39.98960664076119
+            ],
+            [
+              116.34890916864761,
+              39.99006178580271
+            ],
+            [
+              116.3490735356858,
+              39.99019007468388
+            ],
+            [
+              116.34967395852088,
+              39.98973492880115
+            ],
+            [
+              116.3495095914273,
+              39.98960664076119
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-011",
+      "properties": {
+        "id": "BLDG-011",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊11",
+        "name_en": "FUTURE ACADEMY open pavilion 11",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34790366579362,
+              39.99037554323022
+            ],
+            [
+              116.34706068698098,
+              39.99037079736168
+            ],
+            [
+              116.34705897197482,
+              39.990550909916415
+            ],
+            [
+              116.34790195300128,
+              39.99055565581506
+            ],
+            [
+              116.34790366579362,
+              39.99037554323022
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-012",
+      "properties": {
+        "id": "BLDG-012",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊12",
+        "name_en": "FUTURE ACADEMY open pavilion 12",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34606126307727,
+              39.99004575254522
+            ],
+            [
+              116.345469566347,
+              39.989583896274794
+            ],
+            [
+              116.3453027757272,
+              39.98971031990221
+            ],
+            [
+              116.34589447240177,
+              39.99017217701385
+            ],
+            [
+              116.34606126307727,
+              39.99004575254522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-013",
+      "properties": {
+        "id": "BLDG-013",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊13",
+        "name_en": "FUTURE ACADEMY open pavilion 13",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34506169896646,
+              39.988810467609014
+            ],
+            [
+              116.34506789141948,
+              39.98816206244871
+            ],
+            [
+              116.34483373830844,
+              39.98816073909834
+            ],
+            [
+              116.34482754364187,
+              39.98880914422843
+            ],
+            [
+              116.34506169896646,
+              39.988810467609014
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-014",
+      "properties": {
+        "id": "BLDG-014",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊14",
+        "name_en": "FUTURE ACADEMY open pavilion 14",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34549047366326,
+              39.987393324706076
+            ],
+            [
+              116.34609089528797,
+              39.98693819716093
+            ],
+            [
+              116.3459265415986,
+              39.986809904085725
+            ],
+            [
+              116.34532612002955,
+              39.98726503078974
+            ],
+            [
+              116.34549047366326,
+              39.987393324706076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-015",
+      "properties": {
+        "id": "BLDG-015",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊15",
+        "name_en": "FUTURE ACADEMY open pavilion 15",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3470963556091,
+              39.98662445493649
+            ],
+            [
+              116.34793928837965,
+              39.98662920017893
+            ],
+            [
+              116.34794100083599,
+              39.98644908747036
+            ],
+            [
+              116.34709807027878,
+              39.98644434225802
+            ],
+            [
+              116.3470963556091,
+              39.98662445493649
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-016",
+      "properties": {
+        "id": "BLDG-016",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-002",
+        "name_zh": "未来书院开放亭廊16",
+        "name_en": "FUTURE ACADEMY open pavilion 16",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34893867183219,
+              39.986954228663855
+            ],
+            [
+              116.34953036971743,
+              39.98741606743792
+            ],
+            [
+              116.34969714698843,
+              39.98728963756956
+            ],
+            [
+              116.3491054490478,
+              39.98682779963664
+            ],
+            [
+              116.34893867183219,
+              39.986954228663855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-017",
+      "properties": {
+        "id": "BLDG-017",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊17",
+        "name_en": "WORLD RELEASE FORUM open pavilion 17",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3504687726574,
+              39.94660682457219
+            ],
+            [
+              116.35046264029444,
+              39.94725523509221
+            ],
+            [
+              116.35069665414971,
+              39.94725654596371
+            ],
+            [
+              116.35070278430368,
+              39.94660813541377
+            ],
+            [
+              116.3504687726574,
+              39.94660682457219
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-018",
+      "properties": {
+        "id": "BLDG-018",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊18",
+        "name_en": "WORLD RELEASE FORUM open pavilion 18",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35017986051174,
+              39.94777004750248
+            ],
+            [
+              116.34957981182839,
+              39.94822520225927
+            ],
+            [
+              116.34974408101387,
+              39.94835349031912
+            ],
+            [
+              116.35034412975249,
+              39.947898334722375
+            ],
+            [
+              116.35017986051174,
+              39.94777004750248
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-019",
+      "properties": {
+        "id": "BLDG-019",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊19",
+        "name_en": "WORLD RELEASE FORUM open pavilion 19",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34890687932318,
+              39.94843532356103
+            ],
+            [
+              116.3480644153562,
+              39.94843058909263
+            ],
+            [
+              116.34806270552635,
+              39.948610702990464
+            ],
+            [
+              116.34890517170251,
+              39.9486154374889
+            ],
+            [
+              116.34890687932318,
+              39.94843532356103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-020",
+      "properties": {
+        "id": "BLDG-020",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊20",
+        "name_en": "WORLD RELEASE FORUM open pavilion 20",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34739554135567,
+              39.94821292717782
+            ],
+            [
+              116.3468041923143,
+              39.94775107722845
+            ],
+            [
+              116.34663750682002,
+              39.94787750452412
+            ],
+            [
+              116.3472288558059,
+              39.94833935531344
+            ],
+            [
+              116.34739554135567,
+              39.94821292717782
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-021",
+      "properties": {
+        "id": "BLDG-021",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊21",
+        "name_en": "WORLD RELEASE FORUM open pavilion 21",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34653120982227,
+              39.94723314183153
+            ],
+            [
+              116.34653737929594,
+              39.94658473181615
+            ],
+            [
+              116.34630336792331,
+              39.946583412567726
+            ],
+            [
+              116.34629719624066,
+              39.947231822552965
+            ],
+            [
+              116.34653120982227,
+              39.94723314183153
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-022",
+      "properties": {
+        "id": "BLDG-022",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊22",
+        "name_en": "WORLD RELEASE FORUM open pavilion 22",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34682018126094,
+              39.94606992836653
+            ],
+            [
+              116.34742022901446,
+              39.94561478772056
+            ],
+            [
+              116.34725597069577,
+              39.945486496395155
+            ],
+            [
+              116.3466559229977,
+              39.945941636201255
+            ],
+            [
+              116.34682018126094,
+              39.94606992836653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-023",
+      "properties": {
+        "id": "BLDG-023",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊23",
+        "name_en": "WORLD RELEASE FORUM open pavilion 23",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34809313819717,
+              39.945404674760674
+            ],
+            [
+              116.34893556505345,
+              39.945409408724444
+            ],
+            [
+              116.34893727240068,
+              39.945229294695594
+            ],
+            [
+              116.34809484775317,
+              39.94522456076185
+            ],
+            [
+              116.34809313819717,
+              39.945404674760674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-024",
+      "properties": {
+        "id": "BLDG-024",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "program_detail": "open_civic_pavilion",
+        "ring_id": "PUBLIC-003",
+        "name_zh": "世界发布庭开放亭廊24",
+        "name_en": "WORLD RELEASE FORUM open pavilion 24",
+        "retain_renovate_demolish": "new_or_adaptive_reuse_to_be_confirmed",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 1440.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34960441687168,
+              39.945627061678614
+            ],
+            [
+              116.3501957668429,
+              39.946088897517164
+            ],
+            [
+              116.3503624414704,
+              39.94596246497909
+            ],
+            [
+              116.34977109144397,
+              39.945500629980415
+            ],
+            [
+              116.34960441687168,
+              39.945627061678614
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-025",
+      "properties": {
+        "id": "BLDG-025",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕1",
+        "name_en": "Knowledge Ridge public canopy 1",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 15701.432
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34866110826385,
+              39.95032796521548
+            ],
+            [
+              116.34874291604314,
+              39.94692345793605
+            ],
+            [
+              116.34825708398826,
+              39.94691654155513
+            ],
+            [
+              116.34817525214035,
+              39.95032104830209
+            ],
+            [
+              116.34866110826385,
+              39.95032796521548
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-026",
+      "properties": {
+        "id": "BLDG-026",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕2",
+        "name_en": "Knowledge Ridge public canopy 2",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 19083.207
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34860853645861,
+              39.95469345987784
+            ],
+            [
+              116.34869035498197,
+              39.95128895525313
+            ],
+            [
+              116.34809984690854,
+              39.9512805483923
+            ],
+            [
+              116.34801799912628,
+              39.95468505236969
+            ],
+            [
+              116.34860853645861,
+              39.95469345987784
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-027",
+      "properties": {
+        "id": "BLDG-027",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕3",
+        "name_en": "Knowledge Ridge public canopy 3",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 19083.207
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34850362569497,
+              39.959058206302046
+            ],
+            [
+              116.34858545755813,
+              39.955653704389505
+            ],
+            [
+              116.34799491197238,
+              39.95564529669877
+            ],
+            [
+              116.34791305084397,
+              39.9590497979639
+            ],
+            [
+              116.34850362569497,
+              39.959058206302046
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-028",
+      "properties": {
+        "id": "BLDG-028",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕4",
+        "name_en": "Knowledge Ridge public canopy 4",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 15701.432
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34834636599491,
+              39.963422204267395
+            ],
+            [
+              116.34842821379526,
+              39.96001770512447
+            ],
+            [
+              116.34794228914639,
+              39.96001078669511
+            ],
+            [
+              116.34786041726167,
+              39.96341528530524
+            ],
+            [
+              116.34834636599491,
+              39.963422204267395
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-029",
+      "properties": {
+        "id": "BLDG-029",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕5",
+        "name_en": "Knowledge Ridge public canopy 5",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 13611.381
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34820907278313,
+              39.967786483182216
+            ],
+            [
+              116.3482909355347,
+              39.964381986787124
+            ],
+            [
+              116.34786966660181,
+              39.96437598869274
+            ],
+            [
+              116.34778778296726,
+              39.96778048462587
+            ],
+            [
+              116.34820907278313,
+              39.967786483182216
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-030",
+      "properties": {
+        "id": "BLDG-030",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕6",
+        "name_en": "Knowledge Ridge public canopy 6",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 15701.432
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34813645226289,
+              39.97215167958198
+            ],
+            [
+              116.34821832676282,
+              39.96874718586391
+            ],
+            [
+              116.34773234035099,
+              39.96874026606822
+            ],
+            [
+              116.34765044175619,
+              39.972144759253304
+            ],
+            [
+              116.34813645226289,
+              39.97215167958198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-031",
+      "properties": {
+        "id": "BLDG-031",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕7",
+        "name_en": "Knowledge Ridge public canopy 7",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 19083.207
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.348083811526,
+              39.97651715722519
+            ],
+            [
+              116.34816569678603,
+              39.973112666162294
+            ],
+            [
+              116.34757500106934,
+              39.9731042551504
+            ],
+            [
+              116.34749308651851,
+              39.97650874556536
+            ],
+            [
+              116.348083811526,
+              39.97651715722519
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-032",
+      "properties": {
+        "id": "BLDG-032",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕8",
+        "name_en": "Knowledge Ridge public canopy 8",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 19083.207
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34797881518094,
+              39.98088188626188
+            ],
+            [
+              116.34806071379965,
+              39.97747739791166
+            ],
+            [
+              116.34746998052978,
+              39.97746898606906
+            ],
+            [
+              116.3473880526139,
+              39.98087347377125
+            ],
+            [
+              116.34797881518094,
+              39.98088188626188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-033",
+      "properties": {
+        "id": "BLDG-033",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕9",
+        "name_en": "Knowledge Ridge public canopy 9",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 15701.432
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34782145323886,
+              39.98524586647113
+            ],
+            [
+              116.34790336781651,
+              39.98184138089112
+            ],
+            [
+              116.34741728870972,
+              39.98183445904497
+            ],
+            [
+              116.34733535002148,
+              39.98523894409167
+            ],
+            [
+              116.34782145323886,
+              39.98524586647113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-034",
+      "properties": {
+        "id": "BLDG-034",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕10",
+        "name_en": "Knowledge Ridge public canopy 10",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 13608.259
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34774991651211,
+              39.98960749735653
+            ],
+            [
+              116.34776602835692,
+              39.98620323488738
+            ],
+            [
+              116.34734455608655,
+              39.98620205393135
+            ],
+            [
+              116.34732842332049,
+              39.98960631617451
+            ],
+            [
+              116.34774991651211,
+              39.98960749735653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-035",
+      "properties": {
+        "id": "BLDG-035",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕11",
+        "name_en": "Knowledge Ridge public canopy 11",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 15701.432
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34793663686172,
+              39.99396566839382
+            ],
+            [
+              116.3478161658623,
+              39.99056186583384
+            ],
+            [
+              116.3473301216317,
+              39.99057204213941
+            ],
+            [
+              116.34745056850615,
+              39.99397584500504
+            ],
+            [
+              116.34793663686172,
+              39.99396566839382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-036",
+      "properties": {
+        "id": "BLDG-036",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕12",
+        "name_en": "Knowledge Ridge public canopy 12",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 19083.207
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34814344903852,
+              39.998328418789455
+            ],
+            [
+              116.3480229630404,
+              39.994924618853965
+            ],
+            [
+              116.34743219700505,
+              39.99493698740864
+            ],
+            [
+              116.34755265367576,
+              39.99834078771578
+            ],
+            [
+              116.34814344903852,
+              39.998328418789455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-037",
+      "properties": {
+        "id": "BLDG-037",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕13",
+        "name_en": "Knowledge Ridge public canopy 13",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 19083.207
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34829793242149,
+              40.00269226190341
+            ],
+            [
+              116.34817743401804,
+              39.99928846455963
+            ],
+            [
+              116.34758663038257,
+              39.99930083359081
+            ],
+            [
+              116.34770709945224,
+              40.002704631306436
+            ],
+            [
+              116.34829793242149,
+              40.00269226190341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-038",
+      "properties": {
+        "id": "BLDG-038",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕14",
+        "name_en": "Knowledge Ridge public canopy 14",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 15701.432
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34840007702003,
+              40.00705719786226
+            ],
+            [
+              116.34827956880633,
+              40.003653403077344
+            ],
+            [
+              116.347793431765,
+              40.003663580559106
+            ],
+            [
+              116.34791391583795,
+              40.007067375650145
+            ],
+            [
+              116.34840007702003,
+              40.00705719786226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-039",
+      "properties": {
+        "id": "BLDG-039",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕15",
+        "name_en": "Knowledge Ridge public canopy 15",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 13611.381
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34852222985316,
+              40.01142171185585
+            ],
+            [
+              116.34840171083248,
+              40.008017919642505
+            ],
+            [
+              116.34798025771647,
+              40.00802674271784
+            ],
+            [
+              116.34810075580529,
+              40.01143053519667
+            ],
+            [
+              116.34852222985316,
+              40.01142171185585
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-040",
+      "properties": {
+        "id": "BLDG-040",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "program_detail": "knowledge_ridge_open_academy_public_canopy",
+        "ring_id": "RIDGE-001",
+        "name_zh": "知识山脊开放天幕16",
+        "name_en": "Knowledge Ridge public canopy 16",
+        "retain_renovate_demolish": "new_lightweight_reversible_structure_subject_to_review",
+        "height_control": "unknown_pending_official_controls",
+        "area_sqm_declared": 15701.432
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34870911668966,
+              40.015784867559766
+            ],
+            [
+              116.3485885836432,
+              40.01238107795893
+            ],
+            [
+              116.34810238469434,
+              40.01239125622583
+            ],
+            [
+              116.34822289358954,
+              40.01579504613308
+            ],
+            [
+              116.34870911668966,
+              40.015784867559766
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
