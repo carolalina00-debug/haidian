@@ -1,22 +1,64 @@
 {
-  "type": "FeatureCollection",
-  "name": "constraints_scaffold",
-  "features": [],
-  "data_gap": {
-    "status": "official_constraint_geometry_unavailable",
-    "declared_by": "scripts/scaffold_ai_submission.py",
-    "assumption_ids": [
-      "A-CONTROLS-001"
-    ],
-    "missing_layers": [
-      "REGULATORY_CONTROL",
-      "HERITAGE_PROTECTION",
-      "PARCEL",
-      "EXISTING_PRIMARY_ROAD",
-      "EXISTING_RAIL",
-      "EXISTING_WATER"
-    ],
-    "note_zh": "本图层刻意保持空集合。控规控制线、文物保护范围与建设控制地带、道路红线、权属地块、轨道与蓝线均属锁定图层，公开场地包中目前没有可引用的官方几何来源。缺口按 assumption A-CONTROLS-001 登记；取得官方或已清权几何前，不得以推定线条冒充 official_constraint，空集合优于编造。",
-    "note_en": "This layer is intentionally an empty set. Regulatory control lines, heritage protection and construction-control zones, road redlines, cadastral parcels, rail and blue lines are locked layers with no citable official geometry in the public site package. The gap is registered as assumption A-CONTROLS-001; until official or cleared geometry is available, inferred lines must not be presented as an official_constraint - an empty set is preferred over fabrication."
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "CON-PROV-1",
+   "properties": {
+    "id": "CON-PROV-1",
+    "layer": "REGULATORY_CONTROL",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "provisional_constraint",
+    "constraint_type": "provisional_boundary",
+    "name_zh": "总体设计范围临时替代边界",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "note_zh": "仅用于方案生成与自检，不得作为官方红线或精确面积依据"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34070000000001,
+       39.93899999999999
+      ],
+      [
+       116.3397,
+       39.975
+      ],
+      [
+       116.34169999999999,
+       40.00600000000001
+      ],
+      [
+       116.34270000000001,
+       40.026500000000006
+      ],
+      [
+       116.3553,
+       40.02649999999999
+      ],
+      [
+       116.3533,
+       39.99
+      ],
+      [
+       116.3553,
+       39.965
+      ],
+      [
+       116.3553,
+       39.939
+      ],
+      [
+       116.34070000000001,
+       39.93899999999999
+      ]
+     ]
+    ]
+   }
   }
+ ]
 }

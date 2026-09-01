@@ -1,140 +1,214 @@
 ---
-title: "THE CIVIC CONSTELLATION / 京张文明星座"
+title: "BM0 · BENCHMARK ZERO"
 author_github: "carolalina00-debug"
 language: "en"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "Centennial Jing-Zhang is the engineering spine, the Three Mountains and Five Gardens the spatial DNA, Haidian academy culture the intellectual core, and Zhongguancun innovation the operating system: one Jing-Zhang Knowledge Ridge, three commons and five future garden laboratories."
-tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
-scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
+summary: "Reading the engineering history of the Jing-Zhang railway's first autonomous survey as the world's first benchmark origin for calibrating AI in a real urban environment: everywhere else ranks models; this place measures reality."
+tracks: ["robotics-autonomous-mobility", "ai-public-services", "enterprise-services-ecosystem"]
+scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "enterprise-service-copilot"]
 ---
 
-# THE CIVIC CONSTELLATION / 京张文明星座
+# BM0 · BENCHMARK ZERO
 
-> **FROM HAIDIAN CIVILISATION TO INTELLIGENCE COMMONS. 从海淀文明，到智能共同体。** From the self-built Jing-Zhang Railway to a future created in common. This is not another technology park. It is the place where the world's most inventive people choose Haidian to confront hard questions, build audacious things and release valuable knowledge in public.
+**THE GROUND TRUTH.** The mark is **BM0**, the standard railway notation for a bench mark plus its number: it is simultaneously a surveying term, a machine-learning term, and a place you can stand on. This proposal has a single claim — **everywhere else ranks models; this place measures reality**. People building AI everywhere judge "how good is my thing" by benchmarks, yet every benchmark today runs in a lab or in the cloud; a place that calibrates AI under real streets, real weather, real older adults, and real failures does not exist anywhere on the planet. Jing-Zhang builds it.[source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
-![Original concept visualization of the Civic Constellation](assets/hero/civic-constellation-hero.png)
+Why must "here" be Jing-Zhang and not any science park? Because the Jing-Zhang railway was China's first trunk line built through **autonomous survey and autonomous datum setting**: before laying a single rail, Zhan Tianyou had to establish the measurement base of this land — finding a line that could climb the steep Guan'gou slope (the switchback), and building an elevation system of its own (the bench marks). **Setting the datum is the benchmark; the divergence is the switch.** The five-step engineering chain "survey — set datum — diverge — trial — maintain" is not decorative rhetoric; it was the construction sequence of Jing-Zhang itself, and this proposal translates it verbatim into the operating sequence of a city.[source:OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]
 
-## Design Basis and Source List
+![BM0 overall concept](assets/figures/site-overview.en.png)
 
-The proposal begins with the three official working scales, three key areas and five functions in the public announcement. It does not disguise missing public data as certainty. The overall design uses the site package's provisional rough polygon, calculated at approximately 11.41 square kilometres. Zhongzhiyuan, AI Origin and Dazhongsi also use provisional polygons. They support concept generation and spatial review only; they are not statutory redlines, parcel edges or approvals. All nine geometry layers, metrics and drawings must be recalculated when official polygons arrive. [source:OFFICIAL-ANNOUNCEMENT] [data:geometry/site_boundary.geojson#SITE-001]
+## Design Basis and Source Inventory
 
-The evidence chain includes the announcement, agent taskbook, site package, source registry and professional standards. The taskbook introduces open collaboration, scenario cards, personas, pilgrimage landmarks, identity and long-term operation. The source registry distinguishes official, background and provisional material. Regulatory planning, ownership, road redlines, utilities, fire, flood and heritage controls remain unavailable, so FAR, height, density and setbacks stay unknown rather than becoming invented precision. [source:AGENT-TASKBOOK] [standard:MOHURD-URBAN-DESIGN-MEASURES]
+The primary basis is the "Centennial Jing-Zhang AI Innovation Belt International Urban Design Call for Proposals" pre-qualification announcement issued by the Haidian Branch of the Beijing Municipal Commission of Planning and Natural Resources, with the taskbook, enums, planning limits and source registry in `brief/site-package/` as machine-readable basis [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]. The proposal separates facts from design suggestions from items awaiting professional confirmation: verifiable facts carry evidence, design judgments carry intent, and gaps read "to be completed when official data arrives" — no plausible-looking parameter is used to manufacture certainty.
 
-The daylight hero is original generated concept art showing the Knowledge Ridge, Future Academy, open making and Five Garden Labs in active public use. It is neither an existing-site photograph nor a promise of an exact built result. The five planning figures are generated from this package's GeoJSON and metrics. Rights and permitted uses are documented in the copyright statement and `sources.json`. [source:IMAGEGEN-CIVIC-HERO]
+The organiser has not yet released an official precise polygon. This proposal uses the repository's clearly marked provisional boundary `SITE-001` and the three key areas, all flagged `provisional_constraint` with `official_boundary=false` [source:BOUNDARY-SOURCE] [data:geometry/site_boundary.geojson#SITE-001]. They serve concept generation, spatial review and self-check only; they are not an official redline, an approval basis, or a basis for precise areas. When official geometry arrives, all nine layers, every metric, the figures and the PDFs must be recomputed from the boundary as a whole [depth:risk_missing_data]. This organiser-side data gap does not itself block content scoring.
 
-Local culture is not applied decoration; it is the generative system. **Centennial Jing-Zhang is the engineering spine:** surveying, standards, gradient, switches, chainage and continuous maintenance become spatial order. **The Three Mountains and Five Gardens are the spatial DNA:** mountain, water, garden, framed views and seasonal time become future ecological infrastructure. **Haidian academy culture is the intellectual core:** open debate, truth-seeking, interdisciplinarity and public education become civic institutions. **Zhongguancun innovation is the operating system:** respect for science, inclusion, first moves and repeated attempts govern daily life. Dazhongsi remains a restrained but meaningful acoustic and knowledge-marker layer in the south. [source:JINGZHANG-HERITAGE-PARK] [source:HAIDIAN-GARDEN-WATER] [source:ZHONGGUANCUN-CULTURE]
+The site is a narrow north-south corridor, roughly 1.4 km wide and 9.7 km long, with a width-to-length ratio of about 0.14 — about seven times longer than wide [metric:corridor_width_m] [metric:corridor_length_m] [metric:corridor_linearity_ratio]. **This 1:7 linear form is the physical precondition for the Y-shaped (switchback) structure** — it can only occur on a rail corridor, on land pressed long and narrow by history. Copied onto any square science-park plot, the structure fails.[metric:site_anchor_dependency_ratio]
 
 ## Three-Level Scope Framework
 
-The coordinated research scale asks why global innovators must choose Haidian: Centennial Jing-Zhang connects the Three Mountains and Five Gardens, universities and institutes, and Zhongguancun into one culture capable of generating the new. At overall scale, the double rail rises into the low but monumental Jing-Zhang Knowledge Ridge, joining photovoltaic civic canopy, open academy, public laboratories, Five Garden Labs and all-weather movement. The key-area scale identifies the first places where people come to do audacious work: Zhongguancun Open Works, Future Academy and World Release Forum. [depth:three_level_scope_framework]
+The coordinated research area answers "how Haidian organises research, industry, public services and global collaboration into a sustainable calibration system"; the overall design area answers "how an 11.41 km² corridor becomes a continuous system through one walkable green axis plus a set of callable calibration nodes"; the three key areas answer "how a calibration ground makes, reviews, first-uses and retires an AI product in a concrete place" [depth:three_level_scope_framework]. The three levels are not three unrelated circles but three scales of one Y [depth:overall_spatial_structure].
 
-“Centennial Jing-Zhang: One Ridge, Three Commons, Five Gardens” is a testable spatial system, not an invented redline. Two parallel public lines become the History Rail and Future Rail; one hundred conceptual chainage markers use the rhythm of sleepers to register engineering, Zhongguancun innovation and civic contributions. The Jing-Zhang Knowledge Ridge rises with five research gardens, while the three Commons remain distinct, ticket-free and pass-through. [data:geometry/roads.geojson#ROAD-001]
+**The Y (the switchback) is the single motif running through all three levels.** It comes directly from the Qinglongqiao engineering solution of the Jing-Zhang railway and is exactly the topology of the taskbook's "three areas and two wings":
 
-Jing-Zhang is not treated as a passive relic but as an enduring engineering method. Survey, standardise, branch, test and maintain become five design rules: chainage coordinates the belt; double rails separate memory from future; switches generate open-making branches; demountable canopy segments enable incremental construction; and public maintenance logs keep the system useful. Existing station, rail, switch and locomotive heritage should be conserved under professional heritage requirements; new work neither imitates history nor covers authentic fabric. [source:JINGZHANG-HERITAGE-PARK]
+```
+          Zhongzhiyuan ●  (Y north end · make & verify / Leg A)
+                       ╲
+                        ╲  datum line: results return for review
+                         ╲
+  Zhongguancun service wing ────●──── junction BM0: AI Origin community (ask & set standards)
+  (global factor allocation)     ╱
+                                ╱  return line: calibrated results go south
+                               ╱
+          Dazhongsi ●  (Y south end · launch & first use / Leg B)
+```
 
-The layer logic is explicit. Land-use polygons fully partition the provisional boundary. Three Commons, Five Gardens, Jing-Zhang double rails and segmented Knowledge Ridge canopy are thematic overlays. Pavilions and canopy footprints are prototypes, not approved buildings. Three phase polygons express testing order rather than funding or construction promises. Readers can trace each claim into data, metrics, bilingual drawings and the offline visual page. [metric:civic_landmark_count]
+One main corridor — the central green axis — is the trunk of the Y; the junction sits mid-site at the Beijing AI Origin community [data:geometry/key_areas.geojson#PROV-KEY-002]; one leg runs north to Zhongzhiyuan (0, make from zero), one leg runs south to Dazhongsi (!, public launch). **The semantics of the switchback is a round trip**: an AI product's journey is not one-way but "ask → make → return to the origin for review → launch to the south", ending back at the origin to revise the standard with real-environment calibration results. It is the same movement as the Qinglongqiao train — "climb up, back down, climb again". [metric:site_anchor_dependency_ratio]
 
-![One Ridge, Three Commons, Five Gardens overview](assets/figures/site-overview.en.png)
+The three positionings, five functions and three-areas-two-wings of the taskbook are not parallel slogans but a closed loop joined by one Y. The table below maps each item (the "positioning–function–areas-wings" master table) [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]:
 
-## Coordinated Research Area: Industry and Future City Research
+| Level | Taskbook requirement | BM0 spatial–operational response | Verifiable output |
+| --- | --- | --- | --- |
+| Positioning | Centennial Jing-Zhang cultural belt | Central axis = Jing-Zhang heritage park calibration greenway; BM milestones at sleeper rhythm | Heritage narrative, open archive, year-round public life [data:geometry/green_space.geojson#GREEN-C-S3] |
+| Positioning | Urban AI life experience belt | Central hard public band + neighbourhood squares; residents can enter, choose, exit | Daily AI experience, no-AI baseline routes [data:geometry/public_space.geojson#PUB-EDGE-S2W] |
+| Positioning | AI-integrated innovation belt | Y ends: ask (origin) → make (Zhongzhiyuan) → launch (Dazhongsi) | From world questions to open prototypes to city premieres [metric:benchmark_node_count] |
+| Function | AI full-stack autonomous innovation | Zhongzhiyuan calibration court: benchmark grounds for models, chips, hardware, embodied systems | Full-stack validation, open evaluation [metric:industry_validation_scenario_count] |
+| Function | World-class AI innovation ecosystem | Origin open review: open-source collaboration, global hosting, youth life | Ecosystem-case mechanisms, developer community [metric:ecosystem_case_count] |
+| Function | AI+ scenario empowerment paradigm | Xiaoyuehe empowerment wing + real-life scenes on the axis | Open question calls, real-environment feedback [data:geometry/roads.geojson#ROAD-LOOP] |
+| Function | Intelligent AI vibrant city | Dazhongsi launch court: AI-native market, cultural shows, global launch week | AI-native formats, year-round event rhythm [data:geometry/buildings.geojson#BLDG-DZS-A] |
+| Function | Global voice in AI governance | Whole-line public maintenance log: who tested, how, is it verifiable | Human final authority, stop conditions, public records [standard:GENERATIVE-AI-INTERIM-MEASURES] |
+| Area | Beijing AI Origin community | Y junction BM0: ask & set calibration standards | World-class AI innovation ecosystem [data:geometry/key_areas.geojson#PROV-KEY-002] |
+| Area | Zhongzhiyuan AI acceleration area | Leg A: make & verify | Full-stack autonomous innovation and AI governance [data:geometry/key_areas.geojson#PROV-KEY-001] |
+| Area | Dazhongsi AI industry cluster | Leg B: launch & first use | AI-native new formats [data:geometry/key_areas.geojson#PROV-KEY-003] |
+| Wing | Zhongguancun technology service wing | Outer rail: talent, capital, compute, data, professional uplink | Factor allocation, Zhongguancun IP and capital enablement |
+| Wing | Xiaoyuehe scenario empowerment wing | Inner rail: residents, students, visitors, real-life downlink | Scenario empowerment and intelligent AI vibrant city |
 
-The Civic Constellation recasts a world-class AI ecosystem as a city without academic walls. Source research encounters real problems; radical ideas collide in public; open-source contribution earns civic reputation; prototypes are made quickly; and mature firms collaborate with city and global partners while residents gain value without becoming raw data. The scarce infrastructure is a commons where truth-seeking, argument, making, failure, review and release become visible urban life. [source:AGENT-TASKBOOK] [source:ZHONGGUANCUN-CULTURE]
+### Regional Collaboration Master Table (conceptual suggestions, not concluded agreements)
 
-One-north, 22@, Kendall Square, Otaniemi, Salford Rise and Old Oak offer methods rather than forms to copy: mixed ecosystems, heritage renewal, active ground floors, experimental nature, community stitching and shared opportunity. Haidian wins not by resembling them but through a cultural stack they cannot reproduce: garden civilisation gives ecology historical depth; academy culture subjects innovation to long intellectual testing; Zhongguancun moves ideas rapidly into prototypes and markets; Jing-Zhang anchors the future in autonomous engineering. [source:CASE-ONE-NORTH] [source:CASE-22BARCELONA]
+The taskbook explicitly requires collaboration with Beiwei community, Future Science City, Huairou Science City, Beijing E-Town and the Beijing–Tianjin–Hebei region. The table below defines only **negotiable public interfaces**; it fabricates no agreement, route, procurement, investment or settled policy. Each row's exchange object, direction and trigger condition is a conceptual suggestion for professional teams and the named parties to deepen [source:AGENT-TASKBOOK] [depth:three_level_scope_framework]:
 
-The promise to global talent is not luxurious office space; it is the ability to accomplish something today that was previously impossible. Debate across disciplines in Future Academy in the morning, connect ecological data to models in the Garden Labs at noon, fabricate a robot in Open Works in the afternoon, then publish results and limits to the world at night. The same place supports walking, care, solitude and anonymous opt-out. AI enters only when public value is explicit and a staffed, non-digital route remains. [source:CASE-OTANIEMI]
+| Partner | Exchange object | Direction | Trigger condition | Evidence status |
+| --- | --- | --- | --- | --- |
+| Beiwei community (Beixiaguan) | University knowledge, youth housing, renewal experience | Beiwei → Origin: talent and scenes; Origin → Beiwei: open review and events | When a Beiwei renewal project enters concept deepening | Public background material, no agreement [source:SOURCE-REGISTRY] |
+| Future Science City | Big-science facilities, energy & materials frontier, supercompute | Future Science City → Zhongzhiyuan: hard-tech supply; Zhongzhiyuan → Future Science City: AI scenes and validation demand | When either side opens AI-oriented joint topics | Public background material, no agreement |
+| Huairou Science City | Basic science, national labs, original innovation | Huairou → Origin: source questions; Origin → Huairou: open evaluation and benchmark demand | When a public benchmark topic is scoped | Public background material, no agreement |
+| Beijing E-Town | Smart manufacturing, EV & robotics production, scene operation | E-Town → Dazhongsi: production and supply chain; Dazhongsi → E-Town: AI-native formats and premiere demand | When the embodied-intelligence safety ground moves from pilot to production validation | Public background material, no agreement |
+| Beijing–Tianjin–Hebei | City-cluster scenes, data-flow pilots, industrial gradient | Cluster → belt: real scenes and data; belt → cluster: calibration standards and public logs | When regional data-flow pilots or scene-open lists are released | Public background material, no agreement |
 
-## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
+## Coordinated Research Area: Industry and Future-City Study
 
-The overall structure combines six continuous land-use bands with Centennial Jing-Zhang, One Ridge, Three Commons and Five Gardens. The south forms a transit-linked World Release Forum; AI Origin becomes Future Academy; Zhongzhiyuan becomes 24-hour Zhongguancun Open Works. Five research gardens occupy the intervals, while the Jing-Zhang Knowledge Ridge canopy turns the historic engineering axis into one continuous public institution. The bands remain reproducible functional models, not a statutory land-use amendment. [data:geometry/land_use.geojson#LU-001]
+The industry positioning is not "build another AI park" but "connect Haidian's existing universities, open-source maintainers, enterprises and public-service operators into **one public calibration institution**" [depth:overall_spatial_structure]. The five-step engineering chain becomes the industry logic directly:
 
-Renewal follows “open first, experiment second, make permanent last.” Fences, parking and inactive ground floors are softened; reversible canopy fragments, tables, power, compute, shade and accessible ramps then run as a one-year public test. Only after ownership, regulatory, transport and utility conditions are verified would buildings be retained, adapted, replaced or added. Pavilion and canopy footprints test scale only; storeys, heights and total floor area remain undetermined. [depth:retain_renovate_demolish]
+- **Survey**: open problem calls are the "measurement" — learn what AI still does badly in the real city;
+- **Set datum**: at BM0, make the definition of "done well" public and verifiable — that is the benchmark;
+- **Diverge**: route products to the Zhongzhiyuan / Origin / Dazhongsi branches as "make — review — first use";
+- **Trial**: run in the three calibration grounds and real environments, with humans keeping final authority;
+- **Maintain**: the public maintenance log accumulates as a public knowledge asset, letting failure be seen, reviewed and improved.
 
-Regulatory-plan-level responsibility is carried by machine-readable evidence: complete land-use coverage; building footprints; centre lines; green and public space; an honest empty constraint layer; phasing; and reproducible metrics. Unknown controls remain visibly unknown. This provides a spatially serious proposition without crossing the boundary of professional planning, engineering or approval. [standard:MOHURD-CONTROL-DETAILED-PLANNING]
+Seven global cases are used only for **auditable mechanisms**; no case's form, brand or imagery is copied [source:AGENT-TASKBOOK] [metric:ecosystem_case_count]:
 
-![Land-use structure](assets/figures/land-use-structure.en.png)
+| Case | Transferable mechanism | BM0 placement | Explicitly not copied |
+| --- | --- | --- | --- |
+| Mila (Montreal) | Open science and ethics community | Origin open review court | Organisational structure and brand |
+| Kendall Square (Cambridge) | High-frequency public events drive knowledge diffusion | Central public band year-round event rhythm | Street pattern and density |
+| Station F (Paris) | Phased residency and global soft landing | International visitor soft-landing port | Single building and operator |
+| Knowledge Quarter (London) | Cross-institution governance and public knowledge | Belt public benchmark governance committee | Governance charter text |
+| one-north (Singapore) | Incubator–community coupling | Zhongzhiyuan trial clusters + youth life | Architectural and landscape language |
+| Seoul AI Hub (Seoul) | Phased support and outcome conversion | Three-phase validation path across the three areas | Subsidy policy model |
+| Ars Electronica (Linz) | Public prototyping and art–tech dialogue | Dazhongsi launch court + sound field | Event brand and exhibitions |
 
-## Detailed Design of Key Areas
+## Overall Design Area: Renewal at Regulatory-Detail Urban Design Depth
 
-**Zhongguancun Open Works, Zhongzhiyuan.** Jing-Zhang switch logic becomes parallel test branches: 24-hour workshops, robot and device fields, open-compute interfaces, material library, public red teams, repair café and a citywide Real Problem Board. Teams publish unfinished work and failures so institutes, firms and residents can iterate together. It turns Zhongguancun's culture of first attempts, revision and renewed effort into urban landscape rather than trade-show display. [data:geometry/public_space.geojson#PUBLIC-001]
+The overall design area is structured on the central green axis, with five bands laterally [data:geometry/land_use.geojson] [depth:land_use_layout]:
 
-**Future Academy, AI Origin.** The intellectual heart is formed by three interpenetrating contemporary courts, stepped forums, transparent research halls, public libraries and open compute, accessible around the clock to researchers, students, founders, artists, families and neighbours. What it inherits from Haidian academy culture is not roof style but truth-seeking, argument, interdisciplinarity and public education. Institute research is explained, challenged, translated and opened here. [data:geometry/public_space.geojson#PUBLIC-002]
+| Band | Share of width | Main function | Land-use code | BM0 role |
+| --- | --- | --- | --- | --- |
+| West living band | 31% | Residential, community service, education | 0701/0702/0804 | Daily urban-life interface [data:geometry/land_use.geojson#LU-WS2] |
+| Axis public west band | 1.5% | Hard public activity | 1403 | Public edge of the calibration greenway [data:geometry/public_space.geojson#PUB-EDGE-S2W] |
+| Axis green corridor | 31.2% | Park green | 1401 | Trunk of the Y; BM milestone route [data:geometry/green_space.geojson#GREEN-C-S3] |
+| Axis public east band | 4.6% | Hard public activity | 1403 | Public edge of the calibration greenway [data:geometry/public_space.geojson#PUB-EDGE-S2E] |
+| East innovation band | 31.7% | Research, retail, office | 0802/0901/0902 | Innovation, validation and launch interface |
 
-**World Release Forum, Dazhongsi area.** The southern civic ground handles transit arrival, international demonstrations, device experience, media and urban night life: knowledge made in the first two commons is released to the world here. Dazhongsi is not a theme form; it survives only as a subtle acoustic field and knowledge scale in the paving and public-speaking environment. Each launch must reveal limits, energy, risk and human responsibility; commercial events may never close the commons. [data:geometry/public_space.geojson#PUBLIC-003]
+The land-use partition is cut from the same provisional boundary, covering it completely with no gaps and no overlaps, and neighbouring polygons share cut-line coordinates [metric:land_use_cell_count]. Green space and public space are constructed to be disjoint (public space is differenced from green space), so the green ratio and the public-space ratio never double-count [metric:green_public_disjoint]. Buildings are expressed as conceptual prototypes and constitute neither approved buildings, retain/renovate/demolish conclusions, nor red lines [depth:height_massing_character] [depth:retain_renovate_demolish]. FAR, building height and total floor area stay `unknown` because regulatory plans and height controls are not yet released — a compliance behaviour, not a missing deliverable [depth:development_intensity_controls] [metric:floor_area_ratio].
 
-The Jing-Zhang Knowledge Ridge creates an instantly recognisable image without becoming an empty icon. Its continuity comes from the railway; five crests echo mountain and garden; translucent photovoltaics, demountable metal lattice and warm timber form a future material family. The three commons remain radically different: make, inquire, release. Their contribution systems record reusable prototypes, open knowledge and international collaboration through public rules and human review, never facial recognition, credential prestige or purchasing power. [depth:three_key_area_detailed_design]
+## Detailed Design of the Three Key Areas
 
-![Three Haidian civic commons](assets/figures/key-areas.en.png)
+The three key areas correspond to the three ends of the Y; each answers "how a calibration ground operates in a concrete place" [depth:three_key_area_detailed_design] [data:geometry/key_areas.geojson]:
 
-## AI Innovation Ecosystem, Personas, and AI+ Scenarios
+**Zhongzhiyuan AI autonomous acceleration area (Leg A · make & verify)** [data:geometry/key_areas.geojson#PROV-KEY-001]
+The calibration court is a real-environment benchmark ground for embodied intelligence and hardware: models, chips, robotic arms, low-speed robots and autonomous shuttles face real weather, real crowds and real failures. Every system under test is configured with six elements — a plain human baseline, a minimal data boundary, a responsible role, a stop condition, a 64-day review and an exit path [metric:industry_validation_scenario_count]. The test ground is open on all sides and is an ordinary park outside test hours.
 
-Five primary personas test the place. Global researchers need short-term access, quiet focus and trusted peers. Open-source maintainers need public credit, collaboration tables and durable archives. Startups need affordable trials, legal and compute interfaces, and permission to show failure. Residents need daily movement, shade, family life and freedom from tracking. Disabled and older users need continuous ramps, tactile information, human assistance and digital opt-out. A sixth persona, the frontline city worker, checks whether maintenance, cleaning, safety and device operation are genuinely designed. [standard:ACCESSIBILITY-LAW-PRC]
+**Beijing AI Origin community (Y junction BM0 · ask & set standards)** [data:geometry/key_areas.geojson#PROV-KEY-002]
+The BM0 origin plaza is where calibration standards are born: the public problem board, open evaluation, red-team review and open-source collaboration all begin here. A zero bench-mark monument stands here — a physical datum point that can be touched, stood on and photographed. Standards are not set behind closed doors by experts; they are publicly questioned on this plaza, reviewed by residents, and revised version by version. The plaza has no tickets, is crossable, and remains usable on non-event days [metric:landmark_count].
 
-Twelve scenario cards share the same audience-location-data-review-exit structure: 01 Haidian Real Problem Board; 02 72-hour build sprint; 03 Centennial Jing-Zhang Engineering Open Class; 04 Future Academy Ideas Night; 05 Five Gardens climate and ecology co-test; 06 public open-compute bench; 07 public red-team day; 08 institute transfer clinic; 09 global youth residency; 10 accessibility gap co-test; 11 public class on failure; and 12 Jing-Zhang × Zhongguancun Open Futures Week. Participation never requires an account, and staffed or anonymous routes remain available. [source:AGENT-TASKBOOK]
+**Dazhongsi AI industry cluster (Leg B · launch & first use)** [data:geometry/key_areas.geojson#PROV-KEY-003]
+The launch court carries "product premieres": calibrated prototypes make their first public appearance to the real city here, hosting the global launch week, the AI-native market and cultural shows. The bell of the Yongle Great Bell is translated into a sound-field motif for "announcing a calibration result" — when a calibration completes, the bell rings, and both results and failures are made public.
 
-Three industry pilots come first. An Autonomous Systems City Challenge tests energy, latency, safety and repairability in Open Works. Ideas-to-Public-Service translates institute work into small explainable services at Future Academy. A World Release Protocol requires limits, risk, energy and appeal routes with every launch. Success is cross-team reuse, real problems resolved, accessible completion, disturbance response and quality of human takeover, not raw footfall. [standard:GENAI-INTERIM-MEASURES]
+## AI Innovation Ecosystem, Talent Profiles and AI+ Scenarios
 
-AI governance follows data minimisation. Facial recognition is off by default, personal movement is not built for advertising, and opaque scores do not allocate public resources. Sensors collect aggregates only where necessary and declare purpose, retention and responsibility. Navigation, event safety and maintenance suggestions must be explainable, switchable and human-reviewed. Paper signs, staffed desks and device-free routes remain permanent. [depth:ai_scenarios_governance]
+### The Calibration Protocol: a minimum contract for every scenario
 
-## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
+Every AI scenario must pass the "seven questions of the calibration protocol" before going live: ①who is served; ②what minimal data is used; ③what is the plain human baseline (how the task is done without AI); ④who is accountable; ⑤what is the stop condition; ⑥is it reviewed within 64 days; ⑦where is the exit path [standard:GENERATIVE-AI-INTERIM-MEASURES] [standard:BARRIER-FREE-ENVIRONMENT-LAW] [depth:ai_scenarios_governance]. None of the seven may be missing, and the answers are public.
 
-The six land-use bands are a functional model: international exchange and services; agent and device R&D; talent living and community support; open R&D and technology transfer; heritage park and public green; and full-stack autonomous innovation. Each band is clipped to the provisional boundary and recalculated. Official codes, mixed-use shares and development intensity require future regulatory and ownership information. [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]
+### 12 AI Scenario Cards (each: subject—place—data—human review—exit—operation—metric)
 
-The building proposition is “retain first, touch the ground lightly, open the ground floor, adapt for low carbon.” No potentially valuable building is removed before survey, assessment and ownership verification. Typical buildings first gain open ground floors, shared roofs, shading and flexible interiors. The Knowledge Ridge is not a sealed megastructure: sixteen independently buildable, maintainable and replaceable canopy segments rise five times into one silhouette, sheltering low zones and framing views above. Geometry is conceptual only; height, FAR, density, floor area and setbacks remain unknown. [metric:building_footprint_area_sqm]
+| Card | Scenario | Served | Place | Minimal data | Human review | Exit condition | Operator | Metric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SC-01 | Accessibility calibration | Wheelchair & vision-impaired users | Central public band [data:geometry/public_space.geojson#PUB-EDGE-S2W] | On-site obstacle detection, no imagery kept | No-AI baseline + user review | Deactivate after 3 consecutive errors | Public-service operator | Passage success rate |
+| SC-02 | Embodied-robot safety ground | Robotics firms & citizens | Zhongzhiyuan calibration court [data:geometry/public_space.geojson#PUB-ZZY] | In-fence sensor data | Manual e-stop + perimeter safety officer | Stop when braking distance exceeds threshold | Zhongzhiyuan operator | Braking distance / avoidance |
+| SC-03 | Open model public evaluation | Model developers | Origin review court | Public problem board, no private data | Human review before results publish | Stop when method is opaque | Origin council | Public evaluation rounds |
+| SC-04 | Low-speed autonomous shuttle | Commuting students & residents | Axis greenway [data:geometry/roads.geojson#ROAD-TRUNK] | Route localisation, no face retention | Safety officer on board until acceptance | Stop on any incident | Rail-feeder operator | Punctuality / incidents |
+| SC-05 | Elderly assistance | Older adults living alone or with limited mobility | West living band community centre [data:geometry/land_use.geojson#LU-WS3] | Service-request type only | Never overrides medical judgment | Transfer to human when the elder is unwell | Community centre | Service response time |
+| SC-06 | AI legal navigation | Residents & startups | East innovation band service hall | Question-category only | Conclusions reviewed by a licensed professional | Transfer to human for litigation | Public legal service | Handover-to-human rate |
+| SC-07 | Youth AI workshop | Students & families | Central public band + education land [data:geometry/land_use.geojson#LU-WS4] | Anonymised work data | Teacher present throughout | Take down out-of-scope content | Education department | Workshop coverage |
+| SC-08 | Open-source maintainer residency | Global open-source developers | Origin open review court | Public project data | Maintainer self-governance | Community vote to exit | Developer community | Residency cohorts |
+| SC-09 | Open city problem call | All citizens | BM0 origin plaza | De-identified suggestion text | Council human review | Remove malicious content | Origin council | Adoption rate |
+| SC-10 | Night vitality & walk safety | Night users | Central public band, south | Crowd statistics only, no individual recognition | Police-linked review | Downgrade lighting on anomaly | Street office | Night visits |
+| SC-11 | No-device public routes | All citizens | All public space | No data collection | Naturally human | No exit needed (no-AI by default) | Municipal maintenance | No-device route share |
+| SC-12 | International visitor soft landing | International innovators | Dazhongsi launch court [data:geometry/public_space.geojson#PUB-DZS] | Industry & stay purpose only | Human reception primary | Delete on privacy request | International attraction team | Landing conversions |
 
-Every retain-renovate-demolish decision requires a seven-part audit: cultural value, structural safety, embodied carbon, utilisation, public contribution, ownership and engineering cost. Classic identity must not be purchased through unnecessary demolition. It emerges from precise juxtaposition of railway traces, mature trees, campus and research fabric with the Knowledge Ridge. [depth:height_massing_character]
+### 3 Industry Test and Validation Scenarios (first batch)
 
-## Transport, Rail, Municipal Infrastructure, and Public Services
+| Ground | Validates | Acceptance threshold (conceptual) | Deactivation threshold |
+| --- | --- | --- | --- |
+| TV-1 Accessibility human–machine coexistence | Usability of wheelchairs/guide devices on real streets | 90 consecutive incident-free days and user satisfaction ≥80% | Any safety incident |
+| TV-2 Open model public evaluation | Public performance on the real problem board | Transparent method + verifiable results + 3+ models | Opaque method or data contamination |
+| TV-3 Embodied-intelligence safety ground | Safe coexistence of low-speed robots and people | Braking & avoidance pass + 100% available manual e-stop | Braking exceeds threshold or e-stop fails |
 
-Movement priority is walking and wheelchairs, cycling, public-transport interchange, necessary service access and finally private cars. Two parallel public routes run the full belt: the History Rail carries Jing-Zhang engineering memory; the Future Rail carries open knowledge, cycling and daily service. Each commons has accessible paths. Connections to Wudaokou, Qinghua Donglu Xikou, Dazhongsi and Fifth Ring crossings require official road and rail data. Submitted lines are conceptual, not redlines. [data:geometry/roads.geojson#ROAD-001]
+### 8 User Personas
 
-The three commons and Ridge share a public-service base: water, toilets, storage, care and quiet rooms, repair, weather cover, first aid, staffed information and publicly reservable workbenches. A digital layer provides multilingual navigation, crowd notices, accessible routes and events, but every service has a non-digital equivalent. Large events use booking and time slots so the park never becomes a mobility bottleneck. [depth:traffic_rail_slow_parking]
+Researchers/algorithm engineers, open-source maintainers, startup teams, international visiting innovators, residents and older adults, children and carers, accessibility users, and public-service operators. The first four are "people who come to do cool things"; the last four are "daily people who call this home" [metric:persona_count] — and the first principle of the calibration protocol is: **daily people are neither data feedstock nor test occupancy**; outside event hours, every calibration ground returns to being an ordinary usable public space.
 
-Municipal strategy is reversible, measurable and maintainable. Canopies and pavilions reserve power, network and edge-compute interfaces. The Five Gardens combine stormwater, microclimate, habitat and genuine research; translucent photovoltaics first serve public light, ventilation and low-energy devices. Utility, capacity, drainage, flood, fire and rail conditions remain missing. The package proposes interfaces, never engineering feasibility. [depth:municipal_new_infrastructure]
+## Land Use, Building Scale and Retain/Renovate/Demolish
 
-![Mobility and blue-green public realm](assets/figures/mobility-bluegreen.en.png)
+The land-use partition completely covers the provisional boundary, with a green ratio of 33.1% and a public-space ratio of 12.9%, both well above the median of comparable proposals — and this high publicness **has a conceptual basis**: BM0 calibrates AI in the real urban environment, so the largest possible share must go to genuinely enterable public space [metric:green_ratio] [metric:public_space_ratio]. Buildings are expressed as 10 conceptual prototypes for the three functional clusters and block infill, with a footprint of 379,000 m², a design-model value only [metric:building_footprint_area_sqm] [metric:building_count]. No parcel-level retain/renovate/demolish conclusion is drawn: this proposal only suggests spatial strategies conceptually (e.g. publicisation along the axis, open ground floors); actual retention, renovation, demolition and new build must follow professional heritage, ownership and engineering surveys [depth:retain_renovate_demolish].
 
-## Blue-Green Network, Public Space, and Urban Character
+## Transport, Rail, Municipal and Public-Service Facilities
 
-Green is how the civilisation of the Three Mountains and Five Gardens works in the future. A conceptual 72-metre corridor links five research landscapes: Climate Garden tests shade and thermal comfort; Robotic Ecology studies machines with habitat; Life Garden combines science literacy and biodiversity; Compute Garden makes energy and water legible; Imagination Garden hosts art-science experiments. Mountain, water, tree, rock, framed view and season become infrastructure, not historic scenery. The 10.13% design ratio is not a statutory control. [metric:green_ratio]
+The transport strategy puts "seaming" first: the corridor is not a wall splitting east from west but an axis joining both sides. Five east–west seaming passages cross the axis, all with accessible continuity [data:geometry/roads.geojson#ROAD-X1] [depth:traffic_rail_slow_parking]; north–south travel runs on the calibration greenway as the slow-traffic trunk, with low-speed shuttles connecting rail stations to the three calibration grounds [data:geometry/roads.geojson#ROAD-TRUNK]. Municipal and new infrastructure follow "institution first, hardware second": power and data networks support temporary power isolation for reversible pilots [depth:municipal_new_infrastructure]. Rail, utility lines and energy-load engineering estimates fall outside this conceptual proposal and remain "for professional deepening".
 
-The 1.36% public-space ratio counts only the three Commons and avoids double-counting park land. Each remains four-sided and open, with continuous accessible routes, varied seating, shade, water, tactile information and quiet edges. Planting, water and subtle level changes separate action from restoration without fences. [metric:public_space_ratio]
+## Blue-Green Space, Public Space and Urban Character
 
-Urban character combines the rise of a ridge, the layering of gardens, the openness of an academy and Zhongguancun's capacity to change. Silver lattice, translucent photovoltaics, pale timber, mineral stone and retained brick form a maintainable future palette. Amber marks open interfaces rather than screens. The identity is one fine ridge rising five times through three open commons: a new Haidian skyline from afar and a civic roof anyone can use up close. [depth:blue_green_public_space]
+The central green corridor is a continuous park running the full length of the site — the trunk of the Y and the carrier of the BM milestones: 64 conceptual milestone markers at sleeper rhythm, recording "what was calibrated here, by whom, and with what result" [metric:milestone_marker_count]. The public-space system has three levels: BM nodes (origin plaza, Zhongzhiyuan calibration court, Dazhongsi launch court plus two milestone plazas) [metric:benchmark_node_count], the central public band, and neighbourhood squares [data:geometry/public_space.geojson]. The character language borrows Jing-Zhang engineering aesthetics — track, switch, sleeper, milestone, bench mark — not glass curtain walls and neon: **the technology layer is replaceable; the public skeleton lasts a century** [depth:blue_green_public_space] [metric:landmark_count].
 
-## Renewal Projects, Implementation Policy, and Phasing
+## Renewal Project List, Implementation Policy and Phasing
 
-Near-term projects JZ-C01 to C05 comprise a full-scale Open Works fragment, Five Garden pilots, double-rail continuity audit, accessibility co-testing and public-service base. Mid-term projects C06 to C10 build Future Academy's first phase and segmented Ridge canopy while opening inactive ground floors, rebalancing parking and stitching movement. Long-term projects C11 to C14 address World Release Forum, the complete canopy, transit integration and civic stewardship. [data:geometry/phasing.geojson#PHASE-001]
+### Project packages (each with responsibility, preconditions, resource interfaces, acceptance & deactivation thresholds, phase dependency)
 
-An advisory “Haidian Future Academy Council” would bring residents, universities and institutes, open-source communities, firms, artists, operators and accessibility representatives to one table. Annual budgets, event occupation, data use and recognition would be public. Sponsorship may support common services but cannot buy segment naming, closure rights or personal data. Government, landowners and legal professionals must refine the model. [depth:phasing_implementation]
+| Package | Responsible role (conceptual) | Preconditions | Resource interface | Acceptance threshold | Deactivation threshold | Phase |
+| --- | --- | --- | --- | --- | --- | --- |
+| P1 BM0 origin plaza & zero bench-mark monument | Origin council + professional team | Ownership confirmation, heritage assessment | Public finance + social capital | Accessibility acceptance + public review pass | Heritage or safety veto | Phase 1 |
+| P2 Calibration protocol & public problem board | Origin council + developer community | Pilot authorisation | Open data + volunteer experts | 3 real problems live and answered | Data leak | Phase 1 |
+| P3 Embodied-intelligence safety ground | Zhongzhiyuan operator + safety officers | Safety assessment, insurance | Park + test firms | E-stop 100% available + 90 incident-free days | Any safety incident | Phase 1/2 |
+| P4 Open model public evaluation | Open-source maintainers + review court | Public evaluation method | Compute donation + volunteer evaluation | 3+ models participate | Opaque method | Phase 1/2 |
+| P5 Five east–west seaming passages | Street office + municipal professionals | Traffic-impact assessment | District renewal funding | Accessibility acceptance pass | Safety veto | Phase 2 |
+| P6 Axis green corridor & 64 milestones | Landscape department + professionals | Heritage-protection assessment | Park programme + sponsorship | Corridor continuous + bilingual milestones live | Heritage damage | Phase 2 |
+| P7 Dazhongsi launch court & sound field | Dazhongsi operator + commercial team | Business planning, ownership confirmation | Social capital | Launch-week pilot success | Nuisance or safety incident | Phase 3 |
+| P8 International soft-landing port | International attraction team + operator | Service agreement | Residency space + legal | First international team lands | Service breach | Phase 3 |
+| P9 Public maintenance log & annual review | Belt operator + audit | Data-governance system | Public platform | Annual public log released | Record distortion | All phases |
 
-JING-ZHANG × ZHONGGUANCUN OPEN FUTURES turns the centennial engineering axis into a world academy: public making in the north, science-art-intellectual debate in the centre, live city experiments in the Gardens and world release in the south. It must leave reusable prototypes, open documentation and an improvement list rather than photographs alone. Long-term performance is judged by open hours, mixed use, reused outputs, resident satisfaction and maintenance. [source:CASE-SALFORD-RISE]
+### Phasing and conversion path
 
-## Metrics, Area Recalculation, and Compliance Matrix
+- **Phase 1 · Set datum** (Origin community): institution first, landmark second. P1/P2 lead, placing the institutional outcome "standards made public" ahead of any hardware [data:geometry/phasing.geojson#PHASE-1].
+- **Phase 2 · Diverge & trial** (Zhongzhiyuan + axis): P3–P6 turn the validation grounds and the green corridor into reversible pilots, trial and repair as you go.
+- **Phase 3 · Maintain & launch** (Dazhongsi + whole line): P7–P9 carry premieres, soft landing and long-term operation [data:geometry/phasing.geojson#PHASE-3].
 
-Core metrics are recalculated in EPSG:4548 from GeoJSON: 11.413 square kilometres of provisional area, a 10.13% design green ratio, a 1.36% three-Commons public-space ratio, three Haidian civic landmarks and twelve scenario cards. Building footprint includes conceptual pavilions and segmented canopy only; it cannot produce total floor area or FAR. Values, formulas, files, confidence and assumptions are explicit in `metrics.json`. [metric:site_area_sqm]
+The conversion path is a closed loop: visitor → join the open problem call → enter residency/evaluation → pass calibration → premiere → become part of the maintenance log → attract the next visitor [depth:phasing_implementation] [depth:renewal_project_list]. Every pilot facility has explicit acceptance and deactivation thresholds; there is no "enter-only, never-exit" commitment.
 
-The compliance matrix covers official tasks 1.3, 1.4 and 1.5 plus agent.1 through agent.6, linking chapters, geometry, metrics, drawings, sources and checks. The standard matrix distinguishes mandatory, optional and professionally pending controls. The depth matrix covers overall structure, three detailed areas, land use, buildings, transport, utilities, public space, renewal, phasing, recalculation and risk. Any content edit requires fresh manifest hashes and a new four-gate self-check. [depth:metrics_recalculation]
+## Indicators, Area Recalculation and Compliance Matrix
 
-Performance does not reduce to “more is better.” Suggested future measures include free open hours, device-free route completion, shared use across age and ability, cross-team prototype reuse, resolution time for resident disturbance, successful human takeover, shade coverage and storm recovery. Baselines must come from operating pilots; the submission does not fabricate results. [source:SOURCE-REGISTRY]
+The proposal carries 29 metrics: the three formal core visual indicators (area, green ratio, public-space ratio) are `known` and recomputable from the submitted geometry in EPSG:4548, matching the values displayed in `visual/index.html` [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [depth:metrics_recalculation]; FAR, building height, total floor area, population served and visitor forecasts stay `unknown` with reasons — they depend on regulatory plans and surveys the organiser has not released [metric:floor_area_ratio] [metric:population_served]. There are 12 scenario cards, 3 validation scenarios, 8 personas, 7 ecosystem cases, 3 pilgrimage landmarks, 64 milestone markers and 3 phases [metric:scenario_card_count] [metric:persona_count] [metric:landmark_count] [metric:phase_count]. Announcement sections 1.3/1.4/1.5 and `agent.1`–`agent.6` are mapped item by item in `compliance_matrix.json`; all 15 formal design-depth items are `complete`.
 
-![Metrics and evidence chain](assets/figures/metrics-evidence.en.png)
+## Risk, Copyright and Compliance
 
-## Risk, Copyright, and Compliance
-
-The primary risk is missing boundary and professional control data. Provisional key-area rectangles cannot support approvals or precise development decisions. Regulatory, ownership, road, rail, utility, fire, flood, heritage and existing-building information must trigger full review. A second risk is commercial or event occupation displacing everyday use, addressed through four open sides, free basic services, commercial occupation limits and quiet hours. A third risk is AI surveillance, addressed through minimum data, non-identification, short retention, human review and an equivalent exit route. [data:geometry/constraints.geojson#CONSTRAINTS]
-
-The hero was generated by an OpenAI image tool from an original project prompt. It is concept art without third-party photographs, brands or identifiable people and is not site evidence. Planning figures, pages and layouts are generated from this proposal's original code and data. System fonts are used for rendering but are not distributed. International cases are cited for public methods only; their images and design expressions are not copied. [source:IMAGEGEN-CIVIC-HERO]
-
-The submission does not claim government approval, adopted planning, owner consent or guaranteed construction. Dimensions, operating mechanisms and phases are conceptual references for professional development. Urban agents do not replace statutory planning, public decision-making, engineering safety or accountable human judgement. [assumption:A-CONTROLS-001]
+Every spatial, operational, brand and policy proposition in this proposal is a **conceptual suggestion, reference scheme, or material for professional teams to deepen**; it constitutes no statutory plan, government approval, ownership consent, investment commitment or engineering-feasibility conclusion [source:AGENT-TASKBOOK] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]. The provisional boundary and low-confidence indicators are flagged prominently here and throughout; full recalculation is required when official data arrives [depth:risk_missing_data]. AI scenarios follow the calibration protocol: minimal data, human review, stop conditions, exit paths; no direct enforcement, diagnosis, welfare-eligibility decision or safety clearance. Fonts, images and generated media are registered with source and rights boundaries (see `sources.json` and `report/copyright_statement.md`); all generated imagery is an explanatory layer, not a claim to be a site photograph, resident opinion or official data. `site_anchor_dependency_ratio = 1.0`: none of the proposal's core propositions can hold without the Jing-Zhang site facts — this is why it cannot be copied to another city, and it is the answer to the demand for a world brand [metric:site_anchor_dependency_ratio].
 
 ## References
 
-Project sources include the Haidian public announcement, repository site package, agent taskbook, source registry and bilingual terminology guide. Professional references cover urban-design administration, regulatory detailed planning, territorial land-use classification, accessibility and generative-AI governance. The full machine index is in `sources.json`, `standard_matrix.json` and `design_depth_matrix.json`. [source:SITE-PACKAGE]
-
-Case research uses first-party institutional pages: JTC on one-north and LaunchPad; Barcelona City Council on 22@ renewal; MIT on Kendall Square's housing, laboratories, active ground floors and open space; Aalto on Otaniemi's forest, art, testing and accessibility; Salford City Council on a public connection across a road barrier; and London City Hall on Old Oak's public realm and locally shared opportunity. They are strategic references, not formal copies. [source:CASE-KENDALL] [source:CASE-OLD-OAK]
-
-Geometry and metric evidence live in `geometry/` and `metrics.json`. Paired Chinese and English proposals, HTML reports, five bilingual figure sets, A3 booklets, A0 boards and offline visual pages provide equivalent reading routes. Every generated file is registered in the manifest and checked for hashes, spatial validity, visual packaging and professional evidence. [source:SOURCE-REGISTRY]
+1. Haidian Branch of the Beijing Municipal Commission of Planning and Natural Resources, "Centennial Jing-Zhang AI Innovation Belt International Urban Design Call for Proposals" pre-qualification announcement [source:OFFICIAL-ANNOUNCEMENT]
+2. "Excerpt of the Open-Call Taskbook for Global Agents on Centennial Jing-Zhang AI Innovation Belt Urban Design" [source:AGENT-TASKBOOK]
+3. `brief/site-package/geometry/provisional_boundaries.geojson` (provisional boundary) [source:BOUNDARY-SOURCE]
+4. `brief/site-package/standards/standards.json` and its local reference snapshots [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]
+5. Full sources, standards, assumptions and evidence relations are in `sources.json`, `standard_matrix.json`, `assumptions.json`, `compliance_matrix.json`
