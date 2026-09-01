@@ -384,6 +384,30 @@
    "confidence": "unknown",
    "assumptions": [],
    "reason": "No baseline survey, transport count or programme schedule has been confirmed; a forecast would be a fabricated implementation claim."
+  },
+  "ecosystem_pillar_count": {
+   "status": "known",
+   "value": 8,
+   "unit": "count",
+   "source_files": [
+    "proposal.md",
+    "assets/figures/ai-ecosystem.png"
+   ],
+   "formula": "count of distinct pillars in the AI innovation ecosystem map",
+   "confidence": "high",
+   "assumptions": []
+  },
+  "public_space_module_count": {
+   "status": "known",
+   "value": 6,
+   "unit": "count",
+   "source_files": [
+    "proposal.md",
+    "assets/figures/public-space-kit.png"
+   ],
+   "formula": "count of modular public-space components in the kit",
+   "confidence": "high",
+   "assumptions": []
   }
  }
 }

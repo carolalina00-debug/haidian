@@ -19,6 +19,8 @@
       "changelog_files": [],
       "changed_files": [
         "submissions/carolalina00-debug/jingzhang-civic-constellation/agent.json",
+        "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/ai-ecosystem.en.png",
+        "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/ai-ecosystem.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/brand-system.en.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/brand-system.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/key-areas.en.png",
@@ -29,6 +31,8 @@
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/metrics-evidence.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/mobility-bluegreen.en.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/mobility-bluegreen.png",
+        "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/public-space-kit.en.png",
+        "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/public-space-kit.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/regional-collaboration.en.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/regional-collaboration.png",
         "submissions/carolalina00-debug/jingzhang-civic-constellation/assets/figures/site-overview.en.png",
@@ -67,7 +71,7 @@
       "ai_package_stages": {
         "submissions/carolalina00-debug/jingzhang-civic-constellation": "formal"
       },
-      "total_bytes": 5937168,
+      "total_bytes": 8117547,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -141,15 +145,15 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 24,
+        "known_metric_refs_required": 26,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
           "source": 4,
           "standard": 5,
-          "depth": 15,
+          "depth": 16,
           "data": 21,
-          "metric": 20
+          "metric": 22
         }
       }
     },

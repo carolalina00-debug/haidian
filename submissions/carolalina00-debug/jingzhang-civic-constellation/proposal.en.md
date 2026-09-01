@@ -161,6 +161,23 @@ Every AI scenario must pass the "seven questions of the calibration protocol" be
 
 Researchers/algorithm engineers, open-source maintainers, startup teams, international visiting innovators, residents and older adults, children and carers, accessibility users, and public-service operators. The first four are "people who come to do cool things"; the last four are "daily people who call this home" [metric:persona_count] — and the first principle of the calibration protocol is: **daily people are neither data feedstock nor test occupancy**; outside event hours, every calibration ground returns to being an ordinary usable public space.
 
+### AI Innovation Ecosystem — 8 Pillars
+
+![AI innovation ecosystem](assets/figures/ai-ecosystem.en.png)
+
+The eight pillars are not a parallel resource list but a collaborative network orbiting the BM0 calibration origin. Compute and data form the underlying infrastructure; models and scenarios are the objects and sites of calibration; talent and capital are mobile production factors; policy and ethics are non-negotiable boundary conditions. Every pillar's接入 to BM0 follows the calibration protocol: it must answer the seven questions, and it has a clear exit path [metric:ecosystem_pillar_count].
+
+| Pillar | BM0 Interface | Calibration-protocol constraint |
+| --- | --- | --- |
+| Compute | Zhongzhiyuan edge pool + cloud heterogeneous scheduling | Test compute isolated; released outside event hours |
+| Data | Urban real-scene data, de-identified flow | Minimum-data principle; no biometric retention |
+| Models | Origin-community public evaluation board | Transparent method; 3+ models required |
+| Scenarios | 12 scenario cards + 3 validation grounds | Human final say; stop conditions defined |
+| Talent | Open-source residency + international soft landing + local ops | Community self-governance; vote to exit |
+| Capital | Public finance + private capital + compute donation | No irreversible commitment; acceptance thresholds public |
+| Policy | Belt public-benchmark governance committee | No settled agreement claimed; only negotiable interfaces |
+| Ethics | Human final say + stop condition + exit path | Every scenario retains a no-AI baseline path by default |
+
 ## Land Use, Building Scale and Retain/Renovate/Demolish
 
 The land-use partition completely covers the provisional boundary, with a green ratio of 33.1% and a public-space ratio of 12.9%, both well above the median of comparable proposals — and this high publicness **has a conceptual basis**: BM0 calibrates AI in the real urban environment, so the largest possible share must go to genuinely enterable public space [metric:green_ratio] [metric:public_space_ratio]. Buildings are expressed as 10 conceptual prototypes for the three functional clusters and block infill, with a footprint of 379,000 m², a design-model value only [metric:building_footprint_area_sqm] [metric:building_count]. No parcel-level retain/renovate/demolish conclusion is drawn: this proposal only suggests spatial strategies conceptually (e.g. publicisation along the axis, open ground floors); actual retention, renovation, demolition and new build must follow professional heritage, ownership and engineering surveys [depth:retain_renovate_demolish].
@@ -172,6 +189,23 @@ The transport strategy puts "seaming" first: the corridor is not a wall splittin
 ## Blue-Green Space, Public Space and Urban Character
 
 The central green corridor is a continuous park running the full length of the site — the trunk of the Y and the carrier of the BM milestones: 64 conceptual milestone markers at sleeper rhythm, recording "what was calibrated here, by whom, and with what result" [metric:milestone_marker_count]. The public-space system has three levels: BM nodes (origin plaza, Zhongzhiyuan calibration court, Dazhongsi launch court plus two milestone plazas) [metric:benchmark_node_count], the central public band, and neighbourhood squares [data:geometry/public_space.geojson]. The character language borrows Jing-Zhang engineering aesthetics — track, switch, sleeper, milestone, bench mark — not glass curtain walls and neon: **the technology layer is replaceable; the public skeleton lasts a century** [depth:blue_green_public_space] [metric:landmark_count].
+
+### Public-Space Component Kit
+
+![Public-space component kit](assets/figures/public-space-kit.en.png)
+
+BM0 public space is not a fixed place designed once and for all, but a modular component system that is composable, replaceable and scalable. Six modules correspond to the different scales of the Y's three ends and two wings; each module has a defined size range, applicable scene and combination logic [depth:public_space_component_kit] [metric:public_space_module_count]:
+
+| Module | Scale | Applicable scene | Combination logic |
+| --- | --- | --- | --- |
+| BM Node | 20–40 m diameter | Origin plaza, calibration court, launch court | Anchored at the three ends of the Y; immovable |
+| Milestone | 3 × 1.5 m | Along the axis greenway | 150 m spacing, sleeper rhythm; add/remove |
+| Seam | 20–30 m wide | East–west crossings of the axis | 5 fixed locations; width adjustable |
+| Community Plaza | 15–30 m side | West living-band blocks | Embedded; number expandable |
+| No-tech Path | 2.5–4 m wide | All public space along the belt | Default existence; width adapts to site |
+| Youth Living | Mixed scale | East innovation-band ground floor | Coupled with building ground floor; functions swappable |
+
+The component-kit design principle: **the technology layer is replaceable; the public skeleton lasts a century**. Replacing any single module must not shake the overall framework of the Y structure and the calibration protocol.
 
 ## Renewal Project List, Implementation Policy and Phasing
 
