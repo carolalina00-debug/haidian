@@ -6,14 +6,14 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "把京张铁路第一次自主勘测定标的工程史，转译为全世界第一个在真实城市环境中校准 AI 的基准原点：别处给的是排行榜，这里给的是现实。"
+summary: "把京张铁路第一次自主勘测定标的工程史，转译为一个把真实城市环境作为 AI 校准基准原点的方案设计：别处给的是排行榜，这里给的是现实。本方案所提目标是成为世界上第一个此类真实城市级校准站点愿景的样本，落点仍在京张。"
 tracks: ["robotics-autonomous-mobility", "ai-public-services", "enterprise-services-ecosystem"]
 scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "enterprise-service-copilot"]
 ---
 
 # BM0 · BENCHMARK ZERO / 京张零号基准
 
-**THE GROUND TRUTH. / 大地真值。** 符号 **BM0**，取铁路水准点的标准标记法（Bench Mark + 编号）：它同时是测量学名词、机器学习术语与一个可以站上去的地方。本方案的主张只有一句——**别处给的是排行榜，这里给的是现实**：全世界做 AI 的人都靠 benchmark 判断“我的东西到底有多好”，但今天所有 benchmark 都跑在实验室与云端；在真实街道、真实天气、真实长者、真实故障下校准 AI 的地方，全世界还没有。京张把它造出来。[source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+**THE GROUND TRUTH. / 大地真值。** 符号 **BM0**，取铁路水准点的标准标记法（Bench Mark + 编号）：它同时是测量学名词、机器学习术语与一个可以站上去的地方。本方案的主张只有一句——**别处给的是排行榜，这里给的是现实**：今天绝大多数 benchmark 都跑在实验室与云端；如果在真实街道、真实天气、真实长者、真实故障下校准 AI 能成为 AI 发展的可验证假设，京张愿意成为回答这个假设的样本地。本方案不声明这一假设已经被验证或被全球排他地占有 [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。
 
 “这里”为什么只能是京张，而不是任何一个科技园？因为京张铁路是中国第一次**自主勘测、自主定标**的干线工程：詹天佑要修这条铁路，第一步不是铺轨，而是给这片土地建立自己的测量基准——找一条能爬上关沟陡坡的线（人字形折返），建一套自己的高程系统（水准点）。**定标，就是 benchmark；分岔，就是道岔。** 五步工程链“勘测—定标—分岔—试验—维护”不是装饰性口号，它本来就是京张的施工顺序，本方案把它原样转译为一座城市的运行顺序。[source:OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]
 
@@ -25,7 +25,7 @@ scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "enterpr
 
 组织方尚未发布官方精确 polygon，本方案使用仓库明确标记的临时粗略边界 `SITE-001` 与三处重点区，全部标注为 `provisional_constraint`、`official_boundary=false` [source:BOUNDARY-SOURCE] [data:geometry/site_boundary.geojson#SITE-001]。它们只用于概念生成、空间复核与自检，不是官方红线、审批依据或精确面积依据；官方几何到位后，九类图层、全部指标、图件与 PDF 必须从边界开始整体复算 [depth:risk_missing_data]。该组织方数据缺口本身不阻断内容评分。
 
-场地是南北向的狭长走廊，宽约 1.4 公里、长约 9.7 公里，宽长比约 0.14，即长约是宽的七倍 [metric:corridor_width_m] [metric:corridor_length_m] [metric:corridor_linearity_ratio]。**这个 1:7 的线性形态，是 Y 形（人字形折返）结构成立的物理前提**——它只能发生在铁路廊道上，发生在这样一块被历史压出长条形的土地上。把它复制到任何方正的园区地块，结构就会失效。[metric:site_anchor_dependency_ratio]
+场地是南北向的狭长走廊，宽约 1.4 公里、长约 9.7 公里，宽长比约 0.14，即长约是宽的七倍 [metric:corridor_width_m] [metric:corridor_length_m] [metric:corridor_linearity_ratio]。**这个 1:7 的线性形态，是 Y 形（人字形折返）结构成立的物理前提**——它只能发生在铁路廊道上，发生在这样一块被历史压出长条形的土地上。把它复制到任何方正的园区地块，结构就会失效（场地锚定论证见 [assumptions:A-SITE-ANCHOR-001]）。
 
 
 
@@ -34,7 +34,7 @@ scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "enterpr
 
 统筹研究范围回答“海淀如何把科研、产业、公共服务与全球协作组织成可持续的校准体系”；总体设计范围回答“约 11.41 平方公里的走廊如何用一条可进入的绿轴 + 一组可调用的校准节点形成连续系统”；三处重点区域回答“一个校准场在具体场所里怎样制造、评议、首用并退出” [depth:three_level_scope_framework]。三层不是三个互不相干的圈，而是同一条 Y 形的三个尺度 [depth:overall_spatial_structure]。
 
-**Y 形（人字形折返）是唯一贯穿三层范围的母题**，它直接取自京张铁路青龙桥的工程解法，也正好是任务书“三区两翼”的拓扑：
+**Y 形（人字形折返）是贯穿三层范围的统一母题**，它直接取自京张铁路青龙桥的工程解法，也正好是任务书“三区两翼”的拓扑：
 
 ```
           众智园 ●  (Y 形北端 · 制造与验证 / Leg A)
@@ -48,7 +48,7 @@ scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "enterpr
           大钟寺 ●  (Y 形南端 · 发布与首用 / Leg B)
 ```
 
-一条主廊道（中轴绿轴）是 Y 的主干，分岔点在场地中部——北京 AI 原点社区 [data:geometry/key_areas.geojson#PROV-KEY-002]；向北一条腿到众智园（0 从零造），向南一条腿到大钟寺（! 公开首发）。**折返的语义是往返**：一个人工智能成果的旅程不是单向的，而是“提问 → 制造 → 折返回原点评议 → 南下首发”，最后带着真实环境的校准结果回到起点修订标准。这与青龙桥列车“爬上去、倒回来、再爬上去”的折返，是同一种动作。[metric:site_anchor_dependency_ratio]
+一条主廊道（中轴绿轴）是 Y 的主干，分岔点在场地中部——北京 AI 原点社区 [data:geometry/key_areas.geojson#PROV-KEY-002]；向北一条腿到众智园（0 从零造），向南一条腿到大钟寺（! 公开首发）。**折返的语义是往返**：一个人工智能成果的旅程不是单向的，而是“提问 → 制造 → 折返回原点评议 → 南下首发”，最后带着真实环境的校准结果回到起点修订标准。这与青龙桥列车“爬上去、倒回来、再爬上去”的折返，是同一种动作（场地锚定论证见 [assumptions:A-SITE-ANCHOR-001]）。
 
 任务书中的三大定位、五大功能与三区两翼不是并列口号，而是由同一条 Y 形连接的闭环。下表逐项对应（这是评审要求的“定位—功能—三区两翼”总表）[source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]：
 
@@ -186,7 +186,7 @@ BM0 原点广场是校准标准的诞生地：公开问题榜、开放评测、�
 
 ## 用地、建筑规模与拆改留方案
 
-用地分区完整覆盖临时边界，绿地率 33.1%、公共空间率 12.9%，均显著高于同类方案中位水平，且这一高公共性**有概念支撑**：BM0 的核心是在真实城市环境校准 AI，必须把最大面积留给真实可进入的公共空间 [metric:green_ratio] [metric:public_space_ratio]。建筑以 10 组概念原型表达三区功能簇与街区填充，建筑面积 37.9 万平方米，仅为设计模型值 [metric:building_footprint_area_sqm] [metric:building_count]。拆改留不做地块级结论：本方案只对**空间策略**提概念建议（如中轴沿线公共化、首层开放），具体保留、改造、拆除与新建必须以专业文保、权属与工程调查为准 [depth:retain_renovate_demolish]。
+用地分区完整覆盖临时边界，绿地率 33.1%、公共空间率 12.9%，两者均从提交几何在 EPSG:4548 下复算（组织方尚未发布官方 polygon；正式数据到位后须整体重算）；这一高公共性**有概念支撑**：BM0 的核心是在真实城市环境校准 AI，必须把最大面积留给真实可进入的公共空间 [metric:green_ratio] [metric:public_space_ratio]。建筑以 10 组概念原型表达三区功能簇与街区填充，建筑面积 37.9 万平方米，仅为设计模型值 [metric:building_footprint_area_sqm] [metric:building_count]。拆改留不做地块级结论：本方案只对**空间策略**提概念建议（如中轴沿线公共化、首层开放），具体保留、改造、拆除与新建必须以专业文保、权属与工程调查为准 [depth:retain_renovate_demolish]。**说明**：未与同类方案做横向比较，亦未声明高于任何场外中位水平。
 
 ## 交通、轨道、市政与公共服务设施
 
@@ -246,10 +246,12 @@ BM0 的公共空间不是一次性设计的固定场所，而是一套可组合�
 
 
 
-![核心指标 vs 全场中位](assets/figures/metrics-evidence.png)
+![核心指标（自几何复算）](assets/figures/metrics-evidence.png)
 ## 风险、版权与合规说明
 
-本方案所有空间落地、活动运营、品牌传播与政策机制均为**概念建议、参考方案或可供专业团队深化研究**，不构成法定规划、政府审定、产权同意、投资承诺或工程可行性结论 [source:AGENT-TASKBOOK] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]。临时边界与低置信度指标已在本章与正文多处醒目标注，正式数据到位后必须整体复算 [depth:risk_missing_data]。AI 场景遵守校准协议：最小数据、人工复核、停止条件、退出路径；不做直接执法、诊断、福利资格决定或安全放行。字体、图像与生成媒体均登记来源与授权边界（见 `sources.json` 与 `report/copyright_statement.md`）；所有生成画面为解释层，不冒充现场照片、居民意见或官方数据。`site_anchor_dependency_ratio = 1.0`：本方案的全部核心主张都无法脱离京张场地事实而成立——这是它不能被复制到其他城市的原因，也是它对“世界品牌”诉求的回答 [metric:site_anchor_dependency_ratio]。
+本方案所有空间落地、活动运营、品牌传播与政策机制均为**概念建议、参考方案或可供专业团队深化研究**，不构成法定规划、政府审定、产权同意、投资承诺或工程可行性结论 [source:AGENT-TASKBOOK] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]。临时边界与低置信度指标已在本章与正文多处醒目标注，正式数据到位后必须整体复算 [depth:risk_missing_data]。AI 场景遵守校准协议：最小数据、人工复核、停止条件、退出路径；不做直接执法、诊断、福利资格决定或安全放行。字体、图像与生成媒体均登记来源与授权边界（见 `sources.json` 与 `report/copyright_statement.md`）；所有生成画面为解释层，不冒充现场照片、居民意见或官方数据。
+
+**关于场地锚定（定性论证）**：本方案的核心主张都建立在三件场地事实上——①京张铁路是中国第一次自主勘测定标的干线工程（参见官方公告 [source:OFFICIAL-ANNOUNCEMENT]）；②场地为 1:7 线性铁路廊道，Y 形结构以此为物理前提；③三处重点片区（众智园 / 原点社区 / 大钟寺）由任务书指定。把本方案移植到任一不同时具备这三项事实的场地，主张都会失效或变形——这是叙事性论证而非客观测量值，详见 [assumptions:A-SITE-ANCHOR-001]。
 
 ## 参考资料
 

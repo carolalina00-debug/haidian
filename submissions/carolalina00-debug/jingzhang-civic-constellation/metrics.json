@@ -284,18 +284,18 @@
     "Conceptual network: one trunk greenway, five east-west seams and one neighbourhood loop. Not a road red-line or alignment."
    ]
   },
-  "site_anchor_dependency_ratio": {
-   "status": "known",
-   "value": 1.0,
-   "unit": "ratio",
+  "site_anchor_argument": {
+   "status": "not_applicable",
+   "value": null,
+   "unit": "narrative",
    "source_files": [
     "proposal.md",
-    "geometry/key_areas.geojson"
+    "assumptions.json"
    ],
-   "formula": "count(propositions that survive relocation to another city) inverted: 1 - portable_propositions / total_primary_propositions",
-   "confidence": "medium",
+   "formula": "qualitative narrative (not a measured quantity): this proposal's core claims rest on (1) Jing-Zhang railway first autonomous survey and datum, (2) the 1:7 linear rail-corridor form, and (3) the three taskbook-named key areas. See assumptions.json#A-SITE-ANCHOR-001 for the full set of underlying facts and their scope.",
+   "confidence": "narrative",
    "assumptions": [
-    "Every primary proposition depends on a site-anchored fact: the Jing-Zhang survey-and-datum history, the linear rail corridor form, or the three announced key areas. A value of 1.0 means none of them can be restated elsewhere without losing its subject."
+    "This entry is a narrative argument, not a measured statistic; the previously listed numeric site_anchor_dependency_ratio is removed in response to the AI review (its value of 1.0 was a single-author coding and could not be cross-checked against an external corpus)."
    ]
   },
   "benchmark_anchor_lock": {

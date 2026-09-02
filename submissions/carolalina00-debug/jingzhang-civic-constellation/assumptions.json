@@ -34,8 +34,8 @@
   {
    "id": "A-SITE-ANCHOR-001",
    "status": "design_intent",
-   "statement": "site_anchor_dependency_ratio=1.0 expresses that every primary proposition depends on a Jing-Zhang site fact (survey-and-datum history, 1:7 linear corridor form, or the three announced key areas).",
-   "impact": "This is a narrative-evidence claim for the originality dimension; it is not a measured statistic."
+   "statement": "Site anchoring is treated as a qualitative argument, not a measured statistic. The proposal's core claims rest on three independently verifiable site facts: (1) the Jing-Zhang railway is China's first trunk line built through autonomous survey and datum setting (see official announcement); (2) the site is a 1:7 linear rail corridor (1.4 km wide, 9.7 km long, ratio 0.14), and the Y structure's physical precondition is built on that fact; (3) the three key areas (Zhongzhiyuan, Origin community, Dazhongsi) are explicitly named in the taskbook. Moved to any site that does not hold all three facts at once, the claims lose or shift their meaning. The previously published numeric site_anchor_dependency_ratio=1.0 is removed; it was a single-author coding, could not be cross-checked against an external corpus, and is not used as evidence in the current submission.",
+   "impact": "Provides the narrative anchor for the originality dimension; bound to a finite, verifiable fact set, not a synthetic index. Does not establish any exclusive or globally first-of-its-kind claim."
   }
  ]
 }
