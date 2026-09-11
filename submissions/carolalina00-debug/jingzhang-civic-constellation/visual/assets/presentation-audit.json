@@ -1,0 +1,9 @@
+{
+  "revision": "2026-09-10",
+  "text_rectangles_checked": 546,
+  "text_rectangle_collisions": [],
+  "pdf_count": 4,
+  "figures": 32,
+  "professional_score_claimed": false,
+  "note": "Programmatic bounds/collision checks; independent raster/browser inspection recorded outside package."
+}

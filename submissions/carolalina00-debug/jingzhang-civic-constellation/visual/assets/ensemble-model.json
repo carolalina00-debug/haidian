@@ -1,0 +1,273 @@
+{
+  "revision": "2026-09-10",
+  "status": "provisional_design_scenario_not_actual_siting",
+  "coordinate_system": "EPSG:4548 only for this derived model; authoritative exchange geometries are EPSG:4326",
+  "ensembles": [
+    {
+      "id": "MAKING",
+      "name_zh": "开物环厂",
+      "name_en": "Making court",
+      "public_anchor": "PUB-ZZY",
+      "centre_xy_m": [
+        444749.8847086848,
+        4431620.587129828
+      ],
+      "outer_radius_m": 90,
+      "inner_radius_m": 47.0,
+      "model_building_ids": [
+        "BLDG-ZZY-A",
+        "BLDG-ZZY-B",
+        "BLDG-ZZY-C",
+        "BLDG-ZZY-D",
+        "BLDG-ZZY-E",
+        "BLDG-ZZY-F",
+        "BLDG-ZZY-G",
+        "BLDG-ZZY-H"
+      ],
+      "model_footprint_area_sqm": 13160.32,
+      "concept_land_use_id": "LU-ES4",
+      "type": "multiple_independent_buildings",
+      "approved_height_m": null,
+      "actual_parcel": null
+    },
+    {
+      "id": "LIVING",
+      "name_zh": "观生园环",
+      "name_en": "Living garden",
+      "public_anchor": "PUB-N3",
+      "centre_xy_m": [
+        444288.9054179056,
+        4429955.874525864
+      ],
+      "outer_radius_m": 85,
+      "inner_radius_m": 60,
+      "model_building_ids": [],
+      "model_footprint_area_sqm": 0,
+      "concept_land_use_id": null,
+      "type": "landscape_led_no_new_building",
+      "approved_height_m": null,
+      "actual_parcel": null
+    },
+    {
+      "id": "INQUIRY",
+      "name_zh": "问道环院",
+      "name_en": "Inquiry commons",
+      "public_anchor": "PUB-BM0",
+      "centre_xy_m": [
+        444640.3112792163,
+        4428812.789049715
+      ],
+      "outer_radius_m": 100,
+      "inner_radius_m": 75.0,
+      "model_building_ids": [
+        "BLDG-AIO-A",
+        "BLDG-AIO-B",
+        "BLDG-AIO-C",
+        "BLDG-AIO-D",
+        "BLDG-AIO-E",
+        "BLDG-AIO-F"
+      ],
+      "model_footprint_area_sqm": 10536.936,
+      "concept_land_use_id": "LU-ES3",
+      "type": "multiple_independent_buildings",
+      "approved_height_m": null,
+      "actual_parcel": null
+    },
+    {
+      "id": "COMMONS",
+      "name_zh": "共作圆街",
+      "name_en": "Commons streets",
+      "public_anchor": "PUB-N2",
+      "centre_xy_m": [
+        444725.19075219444,
+        4425709.017190318
+      ],
+      "outer_radius_m": 75,
+      "inner_radius_m": 53.0,
+      "model_building_ids": [
+        "BLDG-COMMONS-A",
+        "BLDG-COMMONS-B",
+        "BLDG-COMMONS-C",
+        "BLDG-COMMONS-D",
+        "BLDG-COMMONS-E",
+        "BLDG-COMMONS-F",
+        "BLDG-COMMONS-G",
+        "BLDG-COMMONS-H"
+      ],
+      "model_footprint_area_sqm": 5897.696,
+      "concept_land_use_id": "LU-ES2",
+      "type": "multiple_independent_buildings",
+      "approved_height_m": null,
+      "actual_parcel": null
+    },
+    {
+      "id": "EXCHANGE",
+      "name_zh": "世界合院",
+      "name_en": "Exchange forum",
+      "public_anchor": "PUB-DZS",
+      "centre_xy_m": [
+        444721.0840150621,
+        4423627.853824078
+      ],
+      "outer_radius_m": 90,
+      "inner_radius_m": 62.99999999999999,
+      "model_building_ids": [
+        "BLDG-DZS-A",
+        "BLDG-DZS-B",
+        "BLDG-DZS-C"
+      ],
+      "model_footprint_area_sqm": 9731.703,
+      "concept_land_use_id": "LU-ES1",
+      "type": "multiple_independent_buildings",
+      "approved_height_m": null,
+      "actual_parcel": null
+    }
+  ],
+  "shape_count": 5,
+  "new_building_ensembles": 4,
+  "landscape_only_ensembles": 1,
+  "ground_network": "geometry/roads.geojson#ROAD-TRUNK plus existing model cross-links",
+  "sections": [
+    {
+      "id": "RIDGE-N",
+      "name_zh": "读山",
+      "name_en": "Reading ridge",
+      "nodes": [
+        "PUB-ZZY",
+        "PUB-N3",
+        "PUB-BM0"
+      ],
+      "form": "ground path, planted slopes and local reading shelters",
+      "straight_model_node_distance_m": 3111.51
+    },
+    {
+      "id": "RIDGE-M",
+      "name_zh": "作山",
+      "name_en": "Making ridge",
+      "nodes": [
+        "PUB-BM0",
+        "PUB-N2"
+      ],
+      "form": "ground path and local occupied workshop canopies",
+      "straight_model_node_distance_m": 2430.867
+    },
+    {
+      "id": "RIDGE-S",
+      "name_zh": "会山",
+      "name_en": "Meeting ridge",
+      "nodes": [
+        "PUB-N2",
+        "PUB-DZS"
+      ],
+      "form": "ground path, local planted forum roof and short permitted links",
+      "straight_model_node_distance_m": 1944.694
+    }
+  ],
+  "continuous_building_or_bridge": false,
+  "official_permission": false,
+  "topology_caveat": "Three thematic route sections, four graph edges, five nodes. No kilometre-long elevated structures. Actual crossings, tree protection and rights remain professional follow-up.",
+  "model_road_centreline_clearance_m": 12,
+  "clearance_caveat": "Model collision-avoidance assumption only, not a statutory setback or an approved road width.",
+  "access_spurs": [
+    {
+      "ensemble_id": "MAKING",
+      "coordinates_xy_m": [
+        [
+          444749.8847086848,
+          4431414.395002845
+        ],
+        [
+          444749.8847086848,
+          4431525.587129828
+        ],
+        [
+          444749.8847086848,
+          4431620.587129828
+        ]
+      ],
+      "length_m": 206.192,
+      "status": "candidate_model_pedestrian_connection_not_surveyed_or_approved",
+      "note": "Starts on existing conceptual road network and enters through an open segment. Not included in road_length_m; rights, trees, terrain and actual crossings are unverified."
+    },
+    {
+      "ensemble_id": "LIVING",
+      "coordinates_xy_m": [
+        [
+          444378.9054179056,
+          4429955.874525864
+        ],
+        [
+          444378.9054179056,
+          4429955.874525864
+        ],
+        [
+          444288.9054179056,
+          4429955.874525864
+        ]
+      ],
+      "length_m": 90.0,
+      "status": "candidate_model_pedestrian_connection_not_surveyed_or_approved",
+      "note": "Starts on existing conceptual road network and enters through an open segment. Not included in road_length_m; rights, trees, terrain and actual crossings are unverified."
+    },
+    {
+      "ensemble_id": "INQUIRY",
+      "coordinates_xy_m": [
+        [
+          444587.8112792167,
+          4428302.884651952
+        ],
+        [
+          444587.8112792163,
+          4428721.856382318
+        ],
+        [
+          444640.3112792163,
+          4428812.789049715
+        ]
+      ],
+      "length_m": 523.972,
+      "status": "candidate_model_pedestrian_connection_not_surveyed_or_approved",
+      "note": "Starts on existing conceptual road network and enters through an open segment. Not included in road_length_m; rights, trees, terrain and actual crossings are unverified."
+    },
+    {
+      "ensemble_id": "COMMONS",
+      "coordinates_xy_m": [
+        [
+          444725.19075219444,
+          4425872.017190317
+        ],
+        [
+          444725.19075219444,
+          4425789.017190318
+        ],
+        [
+          444725.19075219444,
+          4425709.017190318
+        ]
+      ],
+      "length_m": 163.0,
+      "status": "candidate_model_pedestrian_connection_not_surveyed_or_approved",
+      "note": "Starts on existing conceptual road network and enters through an open segment. Not included in road_length_m; rights, trees, terrain and actual crossings are unverified."
+    },
+    {
+      "ensemble_id": "EXCHANGE",
+      "coordinates_xy_m": [
+        [
+          444673.5840150621,
+          4423732.853824078
+        ],
+        [
+          444673.5840150621,
+          4423710.126237438
+        ],
+        [
+          444721.0840150621,
+          4423627.853824078
+        ]
+      ],
+      "length_m": 117.728,
+      "status": "candidate_model_pedestrian_connection_not_surveyed_or_approved",
+      "note": "Starts on existing conceptual road network and enters through an open segment. Not included in road_length_m; rights, trees, terrain and actual crossings are unverified."
+    }
+  ]
+}

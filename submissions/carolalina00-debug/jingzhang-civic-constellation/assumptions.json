@@ -1,41 +1,65 @@
 {
- "schema_version": "0.1.0",
- "assumptions": [
-  {
-   "id": "A-CONTROLS-001",
-   "status": "pending_professional_confirmation",
-   "statement": "Detailed regulatory controls, road redlines, ownership, municipal utilities, and engineering constraints must be confirmed from official attachments before statutory use.",
-   "impact": "The package can be reviewed as a formal AI submission only for provided official boundaries and submitted design layers; statutory controls still need professional confirmation."
-  },
-  {
-   "id": "A-BOUNDARY-001",
-   "status": "provisional",
-   "statement": "The organiser has not released official SITE_BOUNDARY or KEY_AREA polygons; the package uses clearly marked provisional geometry (provisional_constraint, official_boundary=false).",
-   "impact": "All areas, ratios, nodes and phasing are low-confidence design-model values; the nine geometry layers, every metric, all figures and the PDFs must be recomputed from official geometry when it is released."
-  },
-  {
-   "id": "A-BM0-CONCEPT-001",
-   "status": "design_intent",
-   "statement": "BM0/BENCHMARK ZERO is a conceptual brand and institutional proposition anchored on the Jing-Zhang railway's first autonomous survey and datum setting; the Y/switchback spatial structure is a design reading of the taskbook's three areas and two wings, not a statutory land-use conclusion.",
-   "impact": "Spatial, brand, event and policy propositions are conceptual suggestions for professional teams to deepen; they do not imply government approval, investment, or engineering feasibility."
-  },
-  {
-   "id": "A-GREEN-PUBLIC-DISJOINT-001",
-   "status": "geometry_construction",
-   "statement": "public_space.geojson is constructed by differencing the green_space geometry, so the two layers are mathematically disjoint and green_ratio plus public_space_ratio never double-count.",
-   "impact": "The two formal ratios are independently recomputable and additive."
-  },
-  {
-   "id": "A-BUILDINGS-001",
-   "status": "design_prototype",
-   "statement": "Building footprints are conceptual prototypes (379,000 m2, 10 clusters) expressing functional intent; they are not surveyed footprints, approved buildings, or retain/renovate/demolish conclusions.",
-   "impact": "No parcel-level demolition, construction or FAR conclusion is drawn; FAR and height stay unknown until the organiser releases regulatory controls."
-  },
-  {
-   "id": "A-SITE-ANCHOR-001",
-   "status": "design_intent",
-   "statement": "Site anchoring is treated as a qualitative argument, not a measured statistic. The proposal's core claims rest on three independently verifiable site facts: (1) the Jing-Zhang railway is China's first trunk line built through autonomous survey and datum setting (see official announcement); (2) the site is a 1:7 linear rail corridor (1.4 km wide, 9.7 km long, ratio 0.14), and the Y structure's physical precondition is built on that fact; (3) the three key areas (Zhongzhiyuan, Origin community, Dazhongsi) are explicitly named in the taskbook. Moved to any site that does not hold all three facts at once, the claims lose or shift their meaning. The previously published numeric site_anchor_dependency_ratio=1.0 is removed; it was a single-author coding, could not be cross-checked against an external corpus, and is not used as evidence in the current submission.",
-   "impact": "Provides the narrative anchor for the originality dimension; bound to a finite, verifiable fact set, not a synthetic index. Does not establish any exclusive or globally first-of-its-kind claim."
-  }
- ]
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Detailed regulatory controls, road redlines, ownership, municipal utilities, and engineering constraints must be confirmed from official attachments before statutory use.",
+      "impact": "Provisional geometry does not itself block content scoring under the current repository rules. The model is not a statutory or precise official-area basis."
+    },
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "provisional",
+      "statement": "The organiser has not released official SITE_BOUNDARY or KEY_AREA polygons; the package uses clearly marked provisional geometry (provisional_constraint, official_boundary=false).",
+      "impact": "All areas, ratios, nodes and phasing are low-confidence design-model values; the nine geometry layers, every metric, all figures and the PDFs must be recomputed from official geometry when it is released."
+    },
+    {
+      "id": "A-BM0-CONCEPT-001",
+      "status": "design_intent",
+      "statement": "BM0 is an original conceptual mark borrowing surveying and machine-learning semantics. The work-return diagram is a contemporary interpretation, not a historical railway alignment or construction sequence.",
+      "impact": "Spatial, brand, event and policy propositions are conceptual suggestions for professional teams to deepen; they do not imply government approval, investment, or engineering feasibility."
+    },
+    {
+      "id": "A-GREEN-PUBLIC-DISJOINT-001",
+      "status": "geometry_construction",
+      "statement": "public_space.geojson is constructed by differencing the green_space geometry, so the two layers are mathematically disjoint and green_ratio plus public_space_ratio never double-count.",
+      "impact": "The two formal ratios are independently recomputable and additive."
+    },
+    {
+      "id": "A-BUILDINGS-001",
+      "status": "design_prototype",
+      "statement": "V3 contains 29 provisional building footprints: 25 arc segments in four building-led ensembles and four rearranged infill prototypes; approximately 93,327 m2 union footprint. The fifth ensemble is landscape-only. These are not surveyed or approved buildings.",
+      "impact": "Partial official height documents are available but actual parcels and complete controls are unmatched. FAR, height and confirmed GFA remain unknown; the model does not decide demolition or construction permissions."
+    },
+    {
+      "id": "A-SITE-ANCHOR-001",
+      "status": "design_intent",
+      "statement": "Haidian specificity is argued qualitatively through garden-campus layering, Qinghuayuan station and school access, Zhongguancun experimentation, and the three taskbook-named key areas. These inform different spatial and operating decisions. No historical first-survey, globally unique datum, non-portability percentage, or square-site failure is claimed.",
+      "impact": "Public methods may be shared, while local spatial relationships, heritage permissions and partnerships must be independently established. No score or exclusivity right follows from the argument."
+    },
+    {
+      "id": "A-PILOT-001",
+      "status": "pending_professional_confirmation",
+      "statement": "The 64-day residency is a proposed programme rhythm. Named institutional types are candidate roles, not contracted partners. Public use does not imply consent to data collection or participation.",
+      "impact": "Do not start without an accountable operator, secured resources, participant consent, lawful data handling and appropriate permissions. Retain a no-device public route and human services."
+    },
+    {
+      "id": "A-FIVE-GARDENS-001",
+      "status": "design_intent",
+      "statement": "V3 represents five circular ensembles as a provisional design scenario: 25 new arc footprints in four building-led ensembles plus four rearranged conceptual infill footprints; Living Garden adds no building. Actual parcels and permitted heights are not selected. No demolition or approval claim.",
+      "impact": "Replace model siting with cleared actual parcel constraints before development. Generated images illustrate types and must not be read as simultaneous whole-corridor views."
+    },
+    {
+      "id": "A-THREE-RIDGES-001",
+      "status": "design_intent",
+      "statement": "Three public-route sections join five nodes through four graph edges; continuity is ground-based. Local slopes, roofs and shelters are not kilometre-long bridges.",
+      "impact": "Check each road, rail, water, heritage and existing-project interface; a local facility closure must not sever ordinary public passage. Five candidate approach spurs are stored separately in visual/assets/ensemble-model.json. Model footprints avoid road centrelines with an assumed 12 m clearance, not an approved setback. Spur lengths do not enter the existing road_length_m metric."
+    },
+    {
+      "id": "A-HEIGHT-SCOPE-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Three public block/parcel height documents were found, but their boundaries and specific conditions have not been matched to the actual five ensemble parcels. 60/80 m type scenarios are design assumptions; 300 m repository sanity limit is not a planning permission.",
+      "impact": "Retain unknown statutory heights, FAR and confirmed GFA; reduce or adapt mass when actual constraints require it. Provisional boundaries alone do not block content scoring."
+    }
+  ]
 }

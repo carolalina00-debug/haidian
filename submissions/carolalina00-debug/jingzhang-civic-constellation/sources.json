@@ -1,89 +1,218 @@
 {
- "schema_version": "0.1.0",
- "sources": [
-  {
-   "id": "SITE-PACKAGE",
-   "path": "brief/site-package/",
-   "source_type": "official_public",
-   "usage": "Project brief, enums, allowed design space, ranges, and schemas."
-  },
-  {
-   "id": "SOURCE-REGISTRY",
-   "path": "data/source_registry.json",
-   "source_type": "repository_public_registry",
-   "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
-  },
-  {
-   "id": "PROCESSED-FACT-PACK",
-   "path": "data/processed/agent_fact_pack.md",
-   "source_type": "repository_processed_reference",
-   "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
-  },
-  {
-   "id": "BOUNDARY-SOURCE",
-   "path": "brief/site-package/geometry/provisional_boundaries.geojson",
-   "source_type": "agent_inferred_from_public_data",
-   "usage": "Submitted site boundary geometry source (provisional)."
-  },
-  {
-   "id": "KEY-AREA-SOURCE",
-   "path": "brief/site-package/geometry/provisional_boundaries.geojson",
-   "source_type": "agent_inferred_from_public_data",
-   "usage": "Three required detailed-design key area boundaries (provisional)."
-  },
-  {
-   "id": "OFFICIAL-ANNOUNCEMENT",
-   "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
-   "source_type": "official_public",
-   "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
-  },
-  {
-   "id": "AGENT-TASKBOOK",
-   "path": "brief/site-package/agent_taskbook.json",
-   "source_type": "user_provided_cleared",
-   "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
-  },
-  {
-   "id": "CASE-MILA",
-   "url": "https://mila.quebec/en/",
-   "source_type": "background_only",
-   "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Mila - Quebec AI Institute official site; mechanism referenced: open science and ethics community."
-  },
-  {
-   "id": "CASE-KENDALL-SQUARE",
-   "url": "https://www.kendallsquare.org/",
-   "source_type": "background_only",
-   "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Kendall Square public programme site; mechanism referenced: high-frequency public events for knowledge diffusion."
-  },
-  {
-   "id": "CASE-STATION-F",
-   "url": "https://stationf.co/",
-   "source_type": "background_only",
-   "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Station F official site; mechanism referenced: phased residency and international soft landing."
-  },
-  {
-   "id": "CASE-KNOWLEDGE-QUARTER",
-   "url": "https://www.knowledgequarter.london/",
-   "source_type": "background_only",
-   "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Knowledge Quarter London official site; mechanism referenced: cross-institution governance and public knowledge."
-  },
-  {
-   "id": "CASE-ONE-NORTH",
-   "url": "https://www.jtc.gov.sg/industrial-land-and-space/Pages/one-north.aspx",
-   "source_type": "background_only",
-   "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. JTC one-north official page; mechanism referenced: incubator-community coupling."
-  },
-  {
-   "id": "CASE-SEOUL-AI-HUB",
-   "url": "https://aihub.or.kr/",
-   "source_type": "background_only",
-   "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Seoul AI Hub official site; mechanism referenced: phased support and outcome conversion."
-  },
-  {
-   "id": "CASE-ARS-ELECTRONICA",
-   "url": "https://ars.electronica.art/",
-   "source_type": "background_only",
-   "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Ars Electronica official site; mechanism referenced: public prototyping and art-technology dialogue."
-  }
- ]
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "CASE-MILA",
+      "url": "https://mila.quebec/en/",
+      "source_type": "background_only",
+      "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Mila - Quebec AI Institute official site; mechanism referenced: open science and ethics community."
+    },
+    {
+      "id": "CASE-KENDALL-SQUARE",
+      "url": "https://www.kendallsquare.org/",
+      "source_type": "background_only",
+      "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Kendall Square public programme site; mechanism referenced: high-frequency public events for knowledge diffusion."
+    },
+    {
+      "id": "CASE-STATION-F",
+      "url": "https://stationf.co/",
+      "source_type": "background_only",
+      "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Station F official site; mechanism referenced: phased residency and international soft landing."
+    },
+    {
+      "id": "CASE-KNOWLEDGE-QUARTER",
+      "url": "https://www.knowledgequarter.london/",
+      "source_type": "background_only",
+      "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Knowledge Quarter London official site; mechanism referenced: cross-institution governance and public knowledge."
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "url": "https://www.jtc.gov.sg/industrial-land-and-space/Pages/one-north.aspx",
+      "source_type": "background_only",
+      "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. JTC one-north official page; mechanism referenced: incubator-community coupling."
+    },
+    {
+      "id": "CASE-SEOUL-AI-HUB",
+      "url": "https://aihub.or.kr/",
+      "source_type": "background_only",
+      "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Seoul AI Hub official site; mechanism referenced: phased support and outcome conversion."
+    },
+    {
+      "id": "CASE-ARS-ELECTRONICA",
+      "url": "https://ars.electronica.art/",
+      "source_type": "background_only",
+      "usage": "Only the transferable mechanism is extracted into the proposal; no case form, brand, image or text is copied. Ars Electronica official site; mechanism referenced: public prototyping and art-technology dialogue."
+    },
+    {
+      "id": "HD-TSINGHUA-STATION",
+      "url": "https://xsg.tsinghua.edu.cn/info/1003/3329.htm",
+      "publisher": "清华大学校史馆",
+      "publication_date": "2023",
+      "retrieved_at": "2026-09-07",
+      "source_type": "official_public",
+      "usage": "Qinghuayuan station served school material deliveries/passenger access; rail also supported western-garden visits. Historical context only, not current-site alignment or permits.",
+      "collection_method": "Read official public HTML; paraphrased factual background only.",
+      "coverage": "Haidian and Jing-Zhang historical/district context; not legal site geometry.",
+      "license": "Original publisher retains copyright; no third-party photographs, illustrations or long excerpts redistributed.",
+      "transformations": "Short contextual paraphrase linked to separately identified design interpretation.",
+      "limitations": "No upgrade to official polygons, approved design, engineering conclusions or signed cooperation."
+    },
+    {
+      "id": "HD-YANYUAN",
+      "url": "https://zys.pku.edu.cn/wwbh/6bazys121.htm",
+      "publisher": "北京大学政策法规研究室",
+      "publication_date": "2017-07-06",
+      "retrieved_at": "2026-09-07",
+      "source_type": "official_public",
+      "usage": "Yanyuan garden-campus layering and the 1952 relocation of Peking University. Not a relocation of May Fourth-era events to Haidian.",
+      "collection_method": "Read official public HTML; paraphrased factual background only.",
+      "coverage": "Haidian and Jing-Zhang historical/district context; not legal site geometry.",
+      "license": "Original publisher retains copyright; no third-party photographs, illustrations or long excerpts redistributed.",
+      "transformations": "Short contextual paraphrase linked to separately identified design interpretation.",
+      "limitations": "No upgrade to official polygons, approved design, engineering conclusions or signed cooperation."
+    },
+    {
+      "id": "HD-ZGC-CULTURE",
+      "url": "https://www.bjrd.gov.cn/fwhd/bjrdzz/bjrdzz2020/bjrdzz202005q/yjyts202005/202101/t20210106_2199509.html",
+      "publisher": "北京市人大常委会 / 北京人大2020年第5期",
+      "publication_date": "2020",
+      "retrieved_at": "2026-09-07",
+      "source_type": "official_public",
+      "usage": "Historical electronics-street practice and the culture of innovation and tolerance for experimentation. No contemporary investment, company partnership or policy entitlement inferred.",
+      "collection_method": "Read official public HTML; paraphrased factual background only.",
+      "coverage": "Haidian and Jing-Zhang historical/district context; not legal site geometry.",
+      "license": "Original publisher retains copyright; no third-party photographs, illustrations or long excerpts redistributed.",
+      "transformations": "Short contextual paraphrase linked to separately identified design interpretation.",
+      "limitations": "No upgrade to official polygons, approved design, engineering conclusions or signed cooperation."
+    },
+    {
+      "id": "HD-GARDEN-PLAN",
+      "url": "https://zyk.bjhd.gov.cn/zwdt/zcwj/202412/t20241205_4743384.shtml",
+      "publisher": "北京市海淀区人民政府",
+      "publication_date": "2021",
+      "retrieved_at": "2026-09-07",
+      "source_type": "official_public",
+      "usage": "The 2020–2035 garden plan describes Three Hills and Five Gardens as a cultural green heart and garden/science-city relationships. Wider district context; not the submitted boundary or parcel approval.",
+      "collection_method": "Read official public HTML; paraphrased factual background only.",
+      "coverage": "Haidian and Jing-Zhang historical/district context; not legal site geometry.",
+      "license": "Original publisher retains copyright; no third-party photographs, illustrations or long excerpts redistributed.",
+      "transformations": "Short contextual paraphrase linked to separately identified design interpretation.",
+      "limitations": "No upgrade to official polygons, approved design, engineering conclusions or signed cooperation."
+    },
+    {
+      "id": "HD-JZ-PARK",
+      "url": "https://yllhj.beijing.gov.cn/zwgk/zwxx/202306/t20230626_3145467.shtml",
+      "publisher": "北京市园林绿化局",
+      "publication_date": "2023-06-26",
+      "retrieved_at": "2026-09-07",
+      "source_type": "official_public",
+      "usage": "Phase-one park opening and railway-heritage/public-space context. The 2.5 km/16.8 ha phase-one site is not the 11.41 km² provisional design model.",
+      "collection_method": "Read official public HTML; paraphrased factual background only.",
+      "coverage": "Haidian and Jing-Zhang historical/district context; not legal site geometry.",
+      "license": "Original publisher retains copyright; no third-party photographs, illustrations or long excerpts redistributed.",
+      "transformations": "Short contextual paraphrase linked to separately identified design interpretation.",
+      "limitations": "No upgrade to official polygons, approved design, engineering conclusions or signed cooperation."
+    },
+    {
+      "id": "HD-HEIGHT-BLOCK-2026",
+      "url": "https://zyk.bjhd.gov.cn/zwdt/tdzt/2018/zwgk/zdjs/202608/P020260817587502590665.pdf",
+      "publisher": "北京市海淀区人民政府",
+      "publication_date": "2026-08-17",
+      "retrieved_at": "2026-09-09",
+      "source_type": "official_public",
+      "usage": "PDF pages 8-9 and 36; baseline height zones 36/45/60/80/100 m, views and layered urban form. Northern limit Chengfu Road; not the entire call corridor.",
+      "collection_method": "Downloaded public PDF and visually checked relevant pages; scanned conditions read visually.",
+      "coverage": "Only the geographical area and named parcels of this source; not matched to V3 actual ensemble parcels.",
+      "license": "Publisher retains rights; only brief factual paraphrase and source link redistributed, no source photography.",
+      "transformations": "No digitised official GIS boundary produced.",
+      "limitations": "This document does not grant permission for the proposed five ensembles; actual parcels, rights and all controls must be matched.",
+      "sha256": "2f33c7e23ab31f2ff1612afcff08da30835487348d4a66c75c50cc509ce98d57"
+    },
+    {
+      "id": "HD-HEIGHT-XUEYUAN-2018",
+      "url": "https://ggzyfw.beijing.gov.cn/cmsbj/u/cms/cn.gov.bjggzyfw.www/202401/6572204281039.pdf",
+      "publisher": "北京市规划和自然资源主管部门 / 公共资源交易平台公开附件",
+      "publication_date": "2018-10-23",
+      "retrieved_at": "2026-09-09",
+      "source_type": "official_public",
+      "usage": "PDF pages 1-2, conditions 2018规土（海）条供字0001号. Table 80 m must be read with A central <=60 m and B/J approximately70 m clauses; only named parcels between Xueqing, Yuequan, Shuangqing and Shuangxue roads.",
+      "collection_method": "Downloaded public PDF and visually checked relevant pages; scanned conditions read visually.",
+      "coverage": "Only the geographical area and named parcels of this source; not matched to V3 actual ensemble parcels.",
+      "license": "Publisher retains rights; only brief factual paraphrase and source link redistributed, no source photography.",
+      "transformations": "No digitised official GIS boundary produced.",
+      "limitations": "This document does not grant permission for the proposed five ensembles; actual parcels, rights and all controls must be matched.",
+      "sha256": "204eba85d5c02bd7d6f42f5303658f1c69aa679989404a9730330ac030ffa939"
+    },
+    {
+      "id": "HD-HEIGHT-LANJING-2025",
+      "url": "https://ggzyfw.beijing.gov.cn/cmsbj/u/cms/cn.gov.bjggzyfw.www/202512/9470915391270.pdf",
+      "publisher": "北京市规划和自然资源主管部门 / 公共资源交易平台公开附件",
+      "publication_date": "2025-12-18",
+      "retrieved_at": "2026-09-09",
+      "source_type": "official_public",
+      "usage": "PDF pages 1-3, supply opinion 京规自（海）供审函〔2025〕0006号. HD00-1603-01 60 m; 03A 24 m; link floor area counts, other controls apply. Not permission to replace the existing project.",
+      "collection_method": "Downloaded public PDF and visually checked relevant pages; scanned conditions read visually.",
+      "coverage": "Only the geographical area and named parcels of this source; not matched to V3 actual ensemble parcels.",
+      "license": "Publisher retains rights; only brief factual paraphrase and source link redistributed, no source photography.",
+      "transformations": "No digitised official GIS boundary produced.",
+      "limitations": "This document does not grant permission for the proposed five ensembles; actual parcels, rights and all controls must be matched.",
+      "sha256": "7c296b791f2e547a23361dc2a24a88fdd284f56de267efb208038e47a6977f99"
+    },
+    {
+      "id": "HD-LANJING-PROGRESS-2026",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/csgx/csgxfjszt/fjsztalzs/202606/t20260612_4698370.html",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "publication_date": "2026-06-12",
+      "retrieved_at": "2026-09-10",
+      "source_type": "official_public",
+      "usage": "The named Lanjinglijia parcels already had an approved renewal implementation scheme, a successful land transfer and construction-preparation documentation as described in this dated notice. Do not assume vacant, uncommitted land.",
+      "coverage": "HD00-1603-01 and 03A only; progress as reported on 2026-06-12.",
+      "collection_method": "Read official public HTML; factual paraphrase only.",
+      "license": "Publisher retains rights; source photographs and renderings not reproduced.",
+      "transformations": "No parcel geometry digitised.",
+      "limitations": "A dated progress statement, not live construction monitoring and not permission for this proposal."
+    }
+  ]
 }
