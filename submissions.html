@@ -348,6 +348,8 @@ nav{
 }
 
 </style>
+<script>window.openCityAdsConfig = { pixelId: "" }; /* Set public Pixel ID after consent UI is configured */</script>
+<script src="openai-ads.js" defer></script>
 </head>
 <body>
 <div class="notice-bar" data-i18n="notice">海淀主导 · 2026年8月7日开放 · 8月31日截止 · 9月开始落地</div>
@@ -817,6 +819,12 @@ document.getElementById('langToggle').addEventListener('click', () => {
 setActiveFilter();
 applyLang(lang);
 loadReviewCount();
+</script>
+<script>
+document.querySelector('.submit-guide-cta a[href="https://github.com/open-city-ai/haidian"]')
+  ?.addEventListener('click', function () {
+    window.openCityAds?.participationIntent('github_submission_link_clicked');
+  });
 </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d2ed9f664e384c4889e4dfbbbc706dc6"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
