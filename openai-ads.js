@@ -8,7 +8,7 @@
   var pixelId = typeof config.pixelId === "string" ? config.pixelId.trim() : "";
   var initialized = false;
   var consent = false;
-  var pending = [];
+  var pageViewSent = false;
 
   function measure(type, data, options) {
     if (!consent || !initialized) return;
@@ -42,14 +42,11 @@
     enable();
     if (!initialized) return;
     window.oaiq("consent", true);
-    if (!pending.length) {
+    if (!pageViewSent) {
+      pageViewSent = true;
       measure("page_viewed", { type: "contents", contents: [
         { id: window.location.pathname || "/", name: document.title, content_type: "page" }
       ] });
-    }
-    while (pending.length) {
-      var event = pending.shift();
-      measure(event.type, event.data, event.options);
     }
   }
 
