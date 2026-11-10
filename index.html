@@ -708,6 +708,8 @@ footer{border-top:1px solid var(--line);background:#040608}
   .brand-mark span,.area-mosaic span{animation:none;filter:none;opacity:.8}
 }
 </style>
+<script>window.openCityAdsConfig = { pixelId: "" }; /* Set public Pixel ID after consent UI is configured */</script>
+<script src="openai-ads.js" defer></script>
 </head>
 <body>
 
@@ -1674,6 +1676,7 @@ document.querySelectorAll('.skill-copy-btn').forEach(button => {
       }
     }
     if (copied) {
+      window.openCityAds?.participationIntent('agent_instruction_copied');
       setSkillCopyState('copied');
       clearTimeout(skillCopyResetTimer);
       skillCopyResetTimer = setTimeout(() => setSkillCopyState(false), 1800);
